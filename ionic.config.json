@@ -1,0 +1,7 @@
+{
+  "name": "fantasyApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
