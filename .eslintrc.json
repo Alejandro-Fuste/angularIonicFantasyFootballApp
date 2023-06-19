@@ -6,7 +6,8 @@
       "files": ["*.ts"],
       "parserOptions": {
         "project": ["tsconfig.json"],
-        "createDefaultProgram": true
+        "createDefaultProgram": true,
+        "ecmaVersion": "latest"
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
@@ -42,5 +43,8 @@
       "extends": ["plugin:@angular-eslint/template/recommended"],
       "rules": {}
     }
-  ]
+  ],
+  "env": {
+    "es6": true
+  }
 }
