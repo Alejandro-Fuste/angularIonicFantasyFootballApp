@@ -1,7 +1,19 @@
 import { describe, expect, test } from '@jest/globals';
 import { Player } from '../../src/app/grades/player.model';
 
-const p = new Player('John', 'Doe', 'QB', 'NE', 21, '6\'4"', '220', 14, 1, {});
+const p = new Player(
+  'xyz',
+  'John',
+  'Doe',
+  'QB',
+  'NE',
+  21,
+  '6\'4"',
+  '220',
+  14,
+  1,
+  {}
+);
 
 describe('player model', () => {
   test('can instantiate player instance', () => {
@@ -57,5 +69,8 @@ describe('player model', () => {
     expect(typeof p.grades).toBe('object');
   });
 
-  // test('', () => {});
+  test('can set id via constructor arguments', () => {
+    const id = 'xyz';
+    expect(p.id).toBe(id);
+  });
 });
