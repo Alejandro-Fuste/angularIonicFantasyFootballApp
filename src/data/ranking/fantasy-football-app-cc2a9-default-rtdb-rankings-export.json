@@ -1,0 +1,356 @@
+{
+  "teams": {
+    "arizona_cardinals": {
+      "2023": {
+        "offensive_coordinator": 59,
+        "offensive_line": 73.6,
+        "quarterback": {
+          "clayton_tune": 63,
+          "david_blough": 65,
+          "kyler_murray": 84
+        }
+      }
+    },
+    "chicago_bears": {
+      "2023": {
+        "offensive_coordinator": 73,
+        "offensive_line": 74.6,
+        "quarterback": {
+          "justin_fields": 75,
+          "nathan_peterman": 63,
+          "pj_walker": 66
+        }
+      }
+    },
+    "houston_texans": {
+      "2023": {
+        "offensive_coordinator": 61,
+        "offensive_line": 75.8,
+        "quarterback": {
+          "case_keenum": 67,
+          "cj_stroud": 75,
+          "davis_mills": 67
+        }
+      }
+    },
+    "las_vegas_raiders": {
+      "2023": {
+        "offensive_coordinator": 71,
+        "offensive_line": 74.2,
+        "quarterback": {
+          "aidan_o'connell": 63,
+          "brian_hoyer": 63,
+          "jimmy_garoppolo": 75
+        }
+      }
+    },
+    "los_angeles_rams": {
+      "2023": {
+        "offensive_coordinator": 91,
+        "offensive_line": 73,
+        "quarterback": {
+          "brett_rypien": 64,
+          "matthew_stafford": 84,
+          "stetson_bennett": 66
+        }
+      }
+    },
+    "tampa_bay_buccaneers": {
+      "2023": {
+        "offensive_coordinator": 59,
+        "offensive_line": 74.8,
+        "quarterback": {
+          "baker_mayfield": 72,
+          "john_wolford": 64,
+          "kyle_trask": 65
+        }
+      }
+    },
+    "washington_commanders": {
+      "2023": {
+        "offensive_coordinators": 75,
+        "offensive_line": 72.6,
+        "quarterback": {
+          "jacoby_brissett": 72,
+          "jake_fromm": 59,
+          "sam_howell": 68
+        }
+      }
+    },
+    "buffalo_bills": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "miami_dolphins": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "new_england_patriots": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "new_york_jets": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "baltimore_ravens": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "cincinatti_bengals": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "cleveland_browns": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "pittsburgh_steelers": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "indianapolis_colts": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "jacksonville_jaguars": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "tennessee_titans": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "denver_broncos": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "kansas_city_chiefs": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "los_angeles_chargers": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "dallas_cowboys": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "philadelphia_eagles": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "new_york_giants": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "detroit_lions": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "green_bay_packers": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "minnesota_vikings": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "carolina_panthers": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "atlanta_falcons": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "new_orleans_saints": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "seattle_seahawks": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "san_francisco": {
+      "2023": {
+        "offensive_coordinator": "",
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    }
+  }
+}
