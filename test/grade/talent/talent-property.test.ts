@@ -3,7 +3,7 @@ import { Grade } from '../../../src/app/grades/grade.model';
 
 const g = {};
 
-describe('grade model', () => {
+describe('grade model tests for talent properties', () => {
   test('can instantiate grade instance', () => {
     expect(typeof g).toBe('object');
   });
