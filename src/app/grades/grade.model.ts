@@ -9,6 +9,13 @@ export class Grade {
     skill_points: number
   ) {}
 }
+// velocity points method -> converts velocity to points
+
+// accelartion points method -> converts accelartion to points
+
+// agility points method -> converts agility to points
+
+// age points method -> converts age to points
 
 // height grade method -> converts height input to points
 
