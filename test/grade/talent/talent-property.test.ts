@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { Grade } from '../../../src/app/grades/grade.model';
+import { Talent } from '../../../src/models/talent.model';
 
 const velocity = 75;
 const accelartion = 100;
@@ -8,7 +8,7 @@ const age = 20;
 const height = `6'1"`;
 const weight = `210`;
 const skillPoints = 181;
-const g = new Grade(
+const g = new Talent(
   velocity,
   accelartion,
   agility,
@@ -18,8 +18,8 @@ const g = new Grade(
   skillPoints
 );
 
-describe('grade model tests for talent properties', () => {
-  test('can instantiate grade instance', () => {
+describe('talent model tests for talent properties', () => {
+  test('can instantiate talent instance', () => {
     expect(typeof g).toBe('object');
   });
 
@@ -52,44 +52,4 @@ describe('grade model tests for talent properties', () => {
   test('talent property has skills property', () => {
     expect(g.skill_points).toBe(skillPoints);
   });
-
-  // skills subproperty tests for QB
-
-  test('skill property has mechanics & arm strength property', () => {});
-
-  test('skill property has protections property', () => {});
-
-  test('skill property has pocket awareness property', () => {});
-
-  test('skill property has decision making property', () => {});
-
-  test('skill property has defense recognition/turnover property', () => {});
-
-  test('skill property has precision property', () => {});
-
-  test('skill property has pressure performance property', () => {});
-
-  test('skill property has athleticism property', () => {});
-
-  // skills subproperty tests for RB
-
-  test('skill property has vision property', () => {});
-
-  test('skill property has gap, zone, both property', () => {});
-
-  test('skill property has receiving property', () => {});
-
-  test('skill property has blocking making property', () => {});
-
-  // skills subproperty tests for WR/TE
-
-  test('skill property has release property', () => {});
-
-  test('skill property has separation property', () => {});
-
-  test('skill property has route tree property', () => {});
-
-  test('skill property has hands making property', () => {});
-
-  test('skill property has blocking making property', () => {});
 });

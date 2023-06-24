@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { Player } from '../../src/app/grades/player.model';
+import { Player } from '../../src/models/player.model';
 
 const p = new Player(
   'xyz',

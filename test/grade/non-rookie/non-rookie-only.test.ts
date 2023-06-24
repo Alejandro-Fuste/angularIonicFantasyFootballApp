@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { Grade } from '../../../src/app/grades/grade.model';
+import { Grade } from '../../../src/models/talent.model';
 
 const g = {};
 
