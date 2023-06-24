@@ -7,7 +7,15 @@ export class Talent {
     public height: string,
     public weight: string,
     public skill_points: number
-  ) {}
+  ) {
+    this.velocity = velocity;
+    this.accelartion = accelartion;
+    this.agility = agility;
+    this.age = age;
+    this.height = height;
+    this.weight = weight;
+    this.skill_points = skill_points;
+  }
 }
 // velocity points method -> converts velocity to points
 
