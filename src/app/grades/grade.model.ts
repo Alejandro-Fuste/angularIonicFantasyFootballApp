@@ -1,12 +1,12 @@
 export class Grade {
   constructor(
-    velocity: number,
-    accelartion: number,
-    agility: number,
-    age: number,
-    height: string,
-    weight: string,
-    skill_points: number
+    public velocity: number,
+    public accelartion: number,
+    public agility: number,
+    public age: number,
+    public height: string,
+    public weight: string,
+    public skill_points: number
   ) {}
 }
 // velocity points method -> converts velocity to points
