@@ -27,4 +27,13 @@ describe('grade model tests for talent methods', () => {
   test('size method should return 75 points for a 4.28 input', () => {});
 
   test('size method should return a string message for no input for size', () => {});
+
+  // skill tests
+  test('grade model can generate a grade for overall skill', () => {});
+
+  test('QB method should return a string message for any missing inputs', () => {});
+
+  test('RB method should return a string message for any missing inputs', () => {});
+
+  test('WR method should return a string message for any missing inputs', () => {});
 });
