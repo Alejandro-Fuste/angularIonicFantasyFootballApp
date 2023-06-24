@@ -10,15 +10,7 @@ describe('grade model tests for talent properties', () => {
 
   test('grade object has overall property', () => {});
 
-  // main property tests
-
   test('grade object has talent property', () => {});
-
-  test('grade object has offense property', () => {});
-
-  test('grade object has opportunity property', () => {});
-
-  test('grade object has production property', () => {});
 
   // talent subproperty tests
 
