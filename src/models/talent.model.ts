@@ -37,9 +37,11 @@ export class Talent extends Grade {
     return super.sumCriteriaPoints(array);
   }
 
-  gradeObject(): object {
-    return {};
+  percentage(): number {
+    return 0;
+  }
+
+  returnObject(): { letter: string; points: number; percentage: number } {
+    return { letter: '', points: 0, percentage: 0 };
   }
 }
-
-// method to return letter grade and points for talent property

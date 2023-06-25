@@ -8,7 +8,7 @@ const age = 20;
 const height = 20;
 const weight = 20;
 const skillPoints = 181;
-const g = new Talent(
+let talentSample = new Talent(
   velocity,
   accelartion,
   agility,
@@ -18,65 +18,67 @@ const g = new Talent(
   skillPoints
 );
 
+let talentSampleObject = talentSample.returnObject();
+
 describe('talent model tests for talent properties', () => {
   test('can instantiate talent instance', () => {
-    expect(typeof g).toBe('object');
+    expect(typeof talentSample).toBe('object');
   });
 
   // talent property tests
 
   test('talent property has velocity property', () => {
-    expect(g.velocity).toBe(velocity);
+    expect(talentSample.velocity).toBe(velocity);
   });
 
   test('talent property has acceleration property', () => {
-    expect(g.accelartion).toBe(accelartion);
+    expect(talentSample.accelartion).toBe(accelartion);
   });
 
   test('talent property has agility property', () => {
-    expect(g.agility).toBe(agility);
+    expect(talentSample.agility).toBe(agility);
   });
 
   test('talent property has age property', () => {
-    expect(g.age).toBe(age);
+    expect(talentSample.age).toBe(age);
   });
 
   test('talent property has height property', () => {
-    expect(g.height).toBe(height);
+    expect(talentSample.height).toBe(height);
   });
 
   test('talent property has weight property', () => {
-    expect(g.weight).toBe(weight);
+    expect(talentSample.weight).toBe(weight);
   });
 
   test('talent property has skills property', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 });
 
 // talent method tests
 describe('talent model tests for talent methods', () => {
   test('talent model returns a string representing letter grade', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 
   test('talent model returns a number representing percentage', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 
   test('talent model returns a number representing point total', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 
   test('example scenario returns a letter grade of A+', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSampleObject.letter).toBe(skillPoints);
   });
 
   test('example scenario returns a 95.2 percentage', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 
   test('example scenario returns a 476 point total', () => {
-    expect(g.skill_points).toBe(skillPoints);
+    expect(talentSample.skill_points).toBe(skillPoints);
   });
 });
