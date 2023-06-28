@@ -321,12 +321,12 @@
     },
     "new_orleans_saints": {
       "2023": {
-        "offensive_coordinator": "",
-        "offensive_line": "",
+        "offensive_coordinator": 59,
+        "offensive_line": 74.8,
         "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
+          "derek_carr": 77,
+          "jameis_winston": 70,
+          "jake_haener": 64
         }
       }
     },
