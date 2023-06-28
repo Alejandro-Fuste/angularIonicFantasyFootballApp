@@ -4,7 +4,7 @@ import { Talent } from '../../../src/models/talent.model';
 const velocity = 75;
 const accelartion = 100;
 const agility = 60;
-const age = 20;
+const age = 50;
 const height = 20;
 const weight = 20;
 const skillPoints = 181;
@@ -19,6 +19,8 @@ let talentSample = new Talent(
 );
 
 let talentSampleObject = talentSample.returnObject();
+
+let testObject = { letter: 'A', points: 506, percentage: 92 };
 
 describe('talent model tests for talent properties', () => {
   test('can instantiate talent instance', () => {
@@ -59,26 +61,26 @@ describe('talent model tests for talent properties', () => {
 // talent method tests
 describe('talent model tests for talent methods', () => {
   test('talent model returns a string representing letter grade', () => {
-    expect(talentSample.skill_points).toBe(skillPoints);
+    expect(typeof talentSampleObject.letter).toBe('string');
   });
 
   test('talent model returns a number representing percentage', () => {
-    expect(talentSample.skill_points).toBe(skillPoints);
+    expect(typeof talentSampleObject.percentage).toBe('number');
   });
 
   test('talent model returns a number representing point total', () => {
-    expect(talentSample.skill_points).toBe(skillPoints);
+    expect(typeof talentSampleObject.points).toBe('number');
   });
 
-  test('example scenario returns a letter grade of A+', () => {
-    expect(talentSampleObject.letter).toBe(skillPoints);
+  test('example scenario returns a letter grade of A', () => {
+    expect(talentSampleObject.letter).toBe(testObject.letter);
   });
 
-  test('example scenario returns a 95.2 percentage', () => {
-    expect(talentSample.skill_points).toBe(skillPoints);
+  test('example scenario returns a 92 percentage', () => {
+    expect(talentSampleObject.percentage).toBe(testObject.percentage);
   });
 
-  test('example scenario returns a 476 point total', () => {
-    expect(talentSample.skill_points).toBe(skillPoints);
+  test('example scenario returns a 506 point total', () => {
+    expect(talentSampleObject.points).toBe(testObject.points);
   });
 });

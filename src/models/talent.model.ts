@@ -33,15 +33,24 @@ export class Talent extends Grade {
 
   possibleTotalPoints: number = 550;
 
-  sumPoints(array: Array<number>): number {
-    return super.sumCriteriaPoints(array);
-  }
+  returnObject(): {
+    letter: string;
+    description: string;
+    points: number;
+    percentage: number;
+  } {
+    let percentage = super.percentage(
+      super.sumCriteriaPoints(this.array),
+      this.possibleTotalPoints
+    );
 
-  percentage(): number {
-    return 0;
-  }
+    let letterObject = super.criteriaGrade(percentage);
 
-  returnObject(): { letter: string; points: number; percentage: number } {
-    return { letter: '', points: 0, percentage: 0 };
+    return {
+      points: super.sumCriteriaPoints(this.array),
+      percentage,
+      letter: letterObject.letter,
+      description: letterObject.description,
+    };
   }
 }
