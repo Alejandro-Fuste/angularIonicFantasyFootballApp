@@ -1,10 +1,22 @@
 import { describe, expect, test } from '@jest/globals';
 import { Grade } from '../../src/models/grade.model';
 
-const g = {};
+const gradeObject = new Grade();
 
-describe('grade model', () => {
-  test('can instantiate grade instance', () => {
-    expect(typeof g).toBe('object');
+let badInput1 = gradeObject.badInput(undefined);
+
+let badInput2 = gradeObject.badInput('');
+
+let testObject = {
+  zero: 0,
+};
+
+describe('grade model tests', () => {
+  test('badInput method returns 0 for missing input', () => {
+    expect(badInput1).toBe(testObject.zero);
+  });
+
+  test('badInput method returns 0 for string input', () => {
+    expect(badInput2).toBe(testObject.zero);
   });
 });
