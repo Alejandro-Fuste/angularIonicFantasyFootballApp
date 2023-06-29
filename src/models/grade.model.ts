@@ -1,6 +1,12 @@
 export class Grade {
   constructor() {}
 
+  badInput(input: any): number {
+    if (!input) return 0;
+
+    return input;
+  }
+
   sumCriteriaPoints(array: Array<number>): number {
     let sum = array.reduce((a, b) => a + b);
     return sum;
@@ -27,7 +33,10 @@ export class Grade {
     } else if (value > 59.99) {
       return { letter: 'F', description: 'Not Good Enough' };
     } else {
-      return { letter: 'N/A', description: 'Could not calculate grade' };
+      return {
+        letter: 'N/A',
+        description: 'Oops, something went wrong..could not calculate grade',
+      };
     }
   }
 }

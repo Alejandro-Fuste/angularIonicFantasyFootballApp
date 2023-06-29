@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { Talent } from '../../../src/models/talent.model';
+import { Talent } from '../../src/models/talent.model';
 
 const velocity = 75;
 const accelartion = 100;
@@ -20,7 +20,15 @@ let talentSample = new Talent(
 
 let talentSampleObject = talentSample.returnObject();
 
-let testObject = { letter: 'A', points: 506, percentage: 92 };
+let testObject = {
+  letter: 'A',
+  description: 'Great',
+  points: 506,
+  percentage: 92,
+};
+
+let missingInputMessage =
+  'Oops, something went wrong..could not calculate grade';
 
 describe('talent model tests for talent properties', () => {
   test('can instantiate talent instance', () => {
@@ -76,11 +84,23 @@ describe('talent model tests for talent methods', () => {
     expect(talentSampleObject.letter).toBe(testObject.letter);
   });
 
+  test('example scenario returns a description grade of Great', () => {
+    expect(talentSampleObject.description).toBe(testObject.description);
+  });
+
   test('example scenario returns a 92 percentage', () => {
     expect(talentSampleObject.percentage).toBe(testObject.percentage);
   });
 
   test('example scenario returns a 506 point total', () => {
     expect(talentSampleObject.points).toBe(testObject.points);
+  });
+
+  test('missing input method returns message stating input is missing', () => {
+    expect(talentSampleObject.description).toBe(missingInputMessage);
+  });
+
+  test('missing input method returns N/A for letter', () => {
+    expect(talentSampleObject.letter).toBe(missingInputMessage);
   });
 });
