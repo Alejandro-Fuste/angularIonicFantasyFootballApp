@@ -3,11 +3,7 @@ import { Grade } from '../../src/models/grade.model';
 
 const g = {};
 
-describe('grade model', () => {
-  test('can instantiate grade instance', () => {
-    expect(typeof g).toBe('object');
-  });
-
+describe('non-rookie model tests', () => {
   // opportunity property tests
 
   test('opportunity criteria property has games subproperty', () => {});
