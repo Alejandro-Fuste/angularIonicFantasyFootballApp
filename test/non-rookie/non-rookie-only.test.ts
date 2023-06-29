@@ -8,16 +8,6 @@ describe('grade model', () => {
     expect(typeof g).toBe('object');
   });
 
-  // offense criteria property tests
-
-  test('offense criteria property has quarterback property', () => {});
-
-  test('offense criteria property has offensive coordinator property', () => {});
-
-  test('offense criteria property has offensive line property', () => {});
-
-  test('offense criteria total grade methods returns a number grade', () => {});
-
   // opportunity property tests
 
   test('opportunity criteria property has games subproperty', () => {});
