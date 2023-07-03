@@ -1,3 +1,5 @@
+import { error } from 'console';
+
 export class Grade {
   constructor() {}
 
@@ -12,7 +14,10 @@ export class Grade {
     return sum;
   }
 
-  percentage(sum: number, total: number): number {
+  percentage(sum: number, total: number): number | string {
+    if (sum > total)
+      throw new Error('Oops, could not calculate...sum is greater than total');
+
     let result = (sum / total) * 100;
     return parseFloat(result.toFixed(2));
   }
