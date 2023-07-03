@@ -17,7 +17,7 @@ export class Grade {
     return parseFloat(result.toFixed(2));
   }
 
-  criteriaGrade(value: number): { letter: string; description: string } {
+  criteriaGrade(value: number | any): { letter: string; description: string } {
     if (value >= 96) {
       return { letter: 'A+', description: 'Elite' };
     } else if (value >= 90 && value <= 95.99) {
@@ -29,7 +29,7 @@ export class Grade {
     } else if (value >= 70 || value <= 79.99) {
       return { letter: 'C', description: 'Average' };
     } else if (value >= 60 || value <= 69.99) {
-      return { letter: 'D', description: 'Good' };
+      return { letter: 'D', description: 'Below Average' };
     } else if (value > 59.99) {
       return { letter: 'F', description: 'Not Good Enough' };
     } else {
