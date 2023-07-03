@@ -189,12 +189,12 @@
     },
     "tennessee_titans": {
       "2023": {
-        "offensive_coordinator": "",
-        "offensive_line": "",
+        "offensive_coordinator": 61,
+        "offensive_line": 69.8,
         "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
+          "ryan_tannehill": 77,
+          "will_levis": 70,
+          "malik_willis": 63
         }
       }
     },
