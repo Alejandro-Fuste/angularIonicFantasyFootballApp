@@ -26,7 +26,7 @@ export class Grade {
     let total1 = this.badInput(total);
 
     if (sum1 > total1)
-      throw new Error('Oops, could not calculate...sum is greater than total');
+      return 'Oops, could not calculate...sum is greater than total';
 
     let result = (sum1 / total1) * 100;
     return parseFloat(result.toFixed(2));
@@ -41,11 +41,11 @@ export class Grade {
       return { letter: 'B+', description: 'Good' };
     } else if (value >= 80 && value <= 85.99) {
       return { letter: 'B', description: 'Above Average' };
-    } else if (value >= 70 || value <= 79.99) {
+    } else if (value >= 70 && value <= 79.99) {
       return { letter: 'C', description: 'Average' };
-    } else if (value >= 60 || value <= 69.99) {
+    } else if (value >= 60 && value <= 69.99) {
       return { letter: 'D', description: 'Below Average' };
-    } else if (value > 1 || value <= 59.99) {
+    } else if (value > 1 && value <= 59.99) {
       return { letter: 'F', description: 'Not Good Enough' };
     } else {
       return {
