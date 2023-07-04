@@ -1,24 +1,34 @@
-import { error } from 'console';
-
 export class Grade {
   constructor() {}
 
-  badInput(input: any): number {
-    if (!input) return 0;
+  badInput(input: any): any {
+    if (!input || typeof input === 'string' || input < 0 || input.length === 0)
+      return 0;
+
+    if (Array.isArray(input)) {
+      let a = input.filter((a) => typeof a !== 'number');
+
+      if (a.length > 0) return 0;
+    }
 
     return input;
   }
 
   sumCriteriaPoints(array: Array<number>): number {
-    let sum = array.reduce((a, b) => a + b);
+    let list = this.badInput(array);
+
+    let sum: number = list.reduce((a: number, b: number) => a + b);
     return sum;
   }
 
   percentage(sum: number, total: number): number | string {
-    if (sum > total)
+    let sum1 = this.badInput(sum);
+    let total1 = this.badInput(total);
+
+    if (sum1 > total1)
       throw new Error('Oops, could not calculate...sum is greater than total');
 
-    let result = (sum / total) * 100;
+    let result = (sum1 / total1) * 100;
     return parseFloat(result.toFixed(2));
   }
 
