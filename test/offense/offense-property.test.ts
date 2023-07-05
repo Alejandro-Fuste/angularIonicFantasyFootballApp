@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { Offense } from 'src/models/offense.model';
+import { Offense } from '../../src/models/offense.model';
 
 let quarterback = 70;
 let offensiveCoordinator = 76;
@@ -11,8 +11,6 @@ let offenseSample = new Offense(
 );
 
 describe('grade model tests for offense properties', () => {
-  test('grade object has offense property', () => {});
-
   test('offense criteria property has quarterback property', () => {
     expect(offenseSample.quarterback).toBe(quarterback);
   });

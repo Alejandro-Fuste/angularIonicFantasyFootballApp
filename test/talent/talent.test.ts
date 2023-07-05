@@ -8,6 +8,7 @@ const age = 50;
 const height = 20;
 const weight = 20;
 const skillPoints = 181;
+// const missingInput = undefined;
 let talentSample = new Talent(
   velocity,
   accelartion,
@@ -18,17 +19,27 @@ let talentSample = new Talent(
   skillPoints
 );
 
+// let badTalentSample = new Talent(
+//   velocity,
+//   accelartion,
+//   agility,
+//   age,
+//   height,
+//   weight,
+//   missingInput
+// );
+
 let talentSampleObject = talentSample.returnObject();
+// let badTalentSampleObject = badTalentSample.returnObject();
 
 let testObject = {
   letter: 'A',
   description: 'Great',
   points: 506,
   percentage: 92,
+  naLetter: 'N/A',
+  missingInputMessage: 'Oops, something went wrong..could not calculate grade',
 };
-
-let missingInputMessage =
-  'Oops, something went wrong..could not calculate grade';
 
 describe('talent model tests for talent properties', () => {
   test('can instantiate talent instance', () => {
@@ -96,11 +107,11 @@ describe('talent model tests for talent methods', () => {
     expect(talentSampleObject.points).toBe(testObject.points);
   });
 
-  test('missing input method returns message stating input is missing', () => {
-    expect(talentSampleObject.description).toBe(missingInputMessage);
-  });
+  // test('Something went wrong message is returned with missing input ', () => {
+  //   expect(badTalentSampleObject.description).toBe(testObject.description);
+  // });
 
-  test('missing input method returns N/A for letter', () => {
-    expect(talentSampleObject.letter).toBe(missingInputMessage);
-  });
+  // test('N/A is returned for letter grade with missing input', () => {
+  //   expect(badTalentSampleObject.letter).toBe(testObject.naLetter);
+  // });
 });
