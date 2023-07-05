@@ -3,7 +3,7 @@ import { Grade } from './grade.model';
 export class Talent extends Grade {
   constructor(
     public velocity: number,
-    public accelartion: number,
+    public acceleration: number,
     public agility: number,
     public age: number,
     public height: number,
@@ -13,7 +13,7 @@ export class Talent extends Grade {
     super();
 
     this.velocity = velocity;
-    this.accelartion = accelartion;
+    this.acceleration = acceleration;
     this.agility = agility;
     this.age = age;
     this.height = height;
@@ -23,7 +23,7 @@ export class Talent extends Grade {
 
   array: Array<number> = [
     this.velocity,
-    this.accelartion,
+    this.acceleration,
     this.agility,
     this.age,
     this.height,
@@ -38,6 +38,15 @@ export class Talent extends Grade {
     description: string;
     points: number;
     percentage: number | string;
+    propertyValues: {
+      velocity: number;
+      acceleration: number;
+      agility: number;
+      age: number;
+      height: number;
+      weight: number;
+      skill_points: number;
+    };
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
@@ -51,6 +60,15 @@ export class Talent extends Grade {
       percentage,
       letter: letterObject.letter,
       description: letterObject.description,
+      propertyValues: {
+        velocity: this.velocity,
+        acceleration: this.acceleration,
+        agility: this.agility,
+        age: this.age,
+        height: this.height,
+        weight: this.weight,
+        skill_points: this.skill_points,
+      },
     };
   }
 }
