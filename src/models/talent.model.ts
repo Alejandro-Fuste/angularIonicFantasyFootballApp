@@ -37,7 +37,7 @@ export class Talent extends Grade {
     letter: string;
     description: string;
     points: number;
-    percentage: number;
+    percentage: number | string;
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
