@@ -1,15 +1,18 @@
 import { describe, expect, test } from '@jest/globals';
+import { Rookie } from '../../src/models/rookie.model';
 
-describe('grade model tests that only apply for rookies', () => {
-  test('grade object has opportunity property', () => {});
+const depthChart = 85;
 
-  test('grade object has depth chart subproperty', () => {});
+const rookieSample = new Rookie(depthChart);
 
-  test('grade model depth chart method returns a grade for a player first in the depth chart', () => {});
+const rookieObject = rookieSample.returnObject();
 
-  test('grade model depth chart method returns a grade for a player third in the depth chart', () => {});
+describe('opportunity tests that only apply for rookies', () => {
+  test('grade object has opportunity property', () => {
+    expect(rookieSample.depthChart).toBe(depthChart);
+  });
 
-  test('grade model depth chart method returns a grade for a player last in the depth chart', () => {});
-
-  test('grade model depth chart method returns a grade for a player with no rank in the depth chart', () => {});
+  test('grade model depth chart method returns a grade for a player first in the depth chart', () => {
+    expect(rookieObject.propertyValues.depthChart).toBe(depthChart);
+  });
 });

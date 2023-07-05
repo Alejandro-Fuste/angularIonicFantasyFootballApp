@@ -1,6 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
 import { Offense } from '../../src/models/offense.model';
-import { off } from 'process';
 
 let quarterback = 70;
 let offensiveCoordinator = 76;
