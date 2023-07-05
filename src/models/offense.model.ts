@@ -19,14 +19,18 @@ export class Offense extends Grade {
     this.offensive_line,
   ];
 
-  possibleTotalPoints: number = 550;
+  possibleTotalPoints: number = 300;
 
   returnObject(): {
     letter: string;
     description: string;
     points: number;
     percentage: number | string;
-    propertyValues: object;
+    propertyValues: {
+      quarterback: number;
+      offensive_coordinator: number;
+      offensive_line: number;
+    };
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
