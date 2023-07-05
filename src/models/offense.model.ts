@@ -26,6 +26,7 @@ export class Offense extends Grade {
     description: string;
     points: number;
     percentage: number | string;
+    propertyValues: object;
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
@@ -39,6 +40,11 @@ export class Offense extends Grade {
       percentage,
       letter: letterObject.letter,
       description: letterObject.description,
+      propertyValues: {
+        quarterback: this.quarterback,
+        offensive_coordinator: this.offensive_coordinator,
+        offensive_line: this.offensive_line,
+      },
     };
   }
 }
