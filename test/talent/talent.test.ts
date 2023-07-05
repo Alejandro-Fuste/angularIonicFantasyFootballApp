@@ -53,7 +53,7 @@ describe('talent model tests for talent properties', () => {
   });
 
   test('talent property has acceleration property', () => {
-    expect(talentSample.accelartion).toBe(accelartion);
+    expect(talentSample.acceleration).toBe(accelartion);
   });
 
   test('talent property has agility property', () => {
@@ -105,6 +105,34 @@ describe('talent model tests for talent methods', () => {
 
   test('example scenario returns a 506 point total', () => {
     expect(talentSampleObject.points).toBe(testObject.points);
+  });
+
+  test('return object has property for velocity that returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.velocity).toBe(velocity);
+  });
+
+  test('return object has property for acceleration that returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.acceleration).toBe(accelartion);
+  });
+
+  test('return object has property for agility returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.agility).toBe(agility);
+  });
+
+  test('return object has property for age returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.age).toBe(age);
+  });
+
+  test('return object has property for height returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.height).toBe(height);
+  });
+
+  test('return object has property for weight returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.weight).toBe(weight);
+  });
+
+  test('return object has property for skill points returns a number grade', () => {
+    expect(talentSampleObject.propertyValues.skill_points).toBe(skillPoints);
   });
 
   // test('Something went wrong message is returned with missing input ', () => {
