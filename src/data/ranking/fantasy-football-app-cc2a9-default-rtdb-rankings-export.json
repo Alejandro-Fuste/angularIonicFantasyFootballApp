@@ -310,12 +310,12 @@
     },
     "atlanta_falcons": {
       "2023": {
-        "offensive_coordinator": "",
-        "offensive_line": "",
+        "offensive_coordinator": 76,
+        "offensive_line": 78.8,
         "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
+          "desmond_ridder": 70,
+          "taylor_heinicke": 69,
+          "logan_woodside": 62
         }
       }
     },
