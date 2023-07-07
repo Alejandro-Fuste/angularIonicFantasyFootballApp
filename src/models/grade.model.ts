@@ -14,7 +14,7 @@ export class Grade {
     return input;
   }
 
-  sumCriteriaPoints(array: Array<number>): number {
+  sumCriteriaPoints(array: Array<number | undefined>): number {
     let list = this.badInput(array);
 
     let sum: number = list.reduce((a: number, b: number) => a + b);
