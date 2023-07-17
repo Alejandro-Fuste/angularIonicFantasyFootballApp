@@ -11,8 +11,25 @@ const rushingYards = 1006;
 const receivingYards = 353;
 const rushingTouchdowns = 7;
 const receivingTouchdowns = 3;
+const passingTouchdowns = 15;
+const passingYards = 3015;
 
-const nonRookieSample = new NonRookie(
+const qbSample = new NonRookie(
+  position,
+  games,
+  snaps,
+  carries,
+  targets,
+  passingYards,
+  rushingYards,
+  undefined,
+  passingTouchdowns,
+  rushingTouchdowns,
+  undefined,
+  undefined
+);
+
+const rbSample = new NonRookie(
   position,
   games,
   snaps,
@@ -27,112 +44,142 @@ const nonRookieSample = new NonRookie(
   receptions
 );
 
+const wrSample = new NonRookie(
+  position,
+  games,
+  snaps,
+  undefined,
+  targets,
+  undefined,
+  rushingYards,
+  receivingYards,
+  undefined,
+  rushingTouchdowns,
+  receivingTouchdowns,
+  receptions
+);
+
+const teSample = new NonRookie(
+  position,
+  games,
+  snaps,
+  undefined,
+  targets,
+  undefined,
+  rushingYards,
+  receivingYards,
+  undefined,
+  rushingTouchdowns,
+  receivingTouchdowns,
+  receptions
+);
+
 describe('non-rookie model tests', () => {
   // opportunity property tests
 
   test('opportunity criteria property has games property', () => {
-    expect(nonRookieSample.games).toBe(games);
+    expect(rbSample.games).toBe(games);
   });
 
   test('opportunity criteria property has snaps property', () => {
-    expect(nonRookieSample.snaps).toBe(snaps);
+    expect(rbSample.snaps).toBe(snaps);
   });
 
   test('opportunity criteria property has carries property', () => {
-    expect(nonRookieSample.carries).toBe(carries);
+    expect(rbSample.carries).toBe(carries);
   });
 
   test('opportunity criteria property has targets property', () => {
-    expect(nonRookieSample.targets).toBe(targets);
+    expect(rbSample.targets).toBe(targets);
   });
 
   test('opportunity criteria property has receptions property', () => {
-    expect(nonRookieSample.receptions).toBe(receptions);
+    expect(rbSample.receptions).toBe(receptions);
   });
 
   // production property tests
 
-  // RB
-
-  test('RB production criteria property has rushing yards property', () => {
-    expect(offenseObject.points).toBe(games);
-  });
-
-  test('RB production criteria property has receiving yards property', () => {
-    expect(offenseObject.points).toBe(games);
-  });
-
-  test('RB production criteria property has rushing touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
-  });
-
-  test('RB production criteria property has receiving touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
-  });
-
-  test('RB production criteria property has receptions property', () => {
-    expect(offenseObject.points).toBe(games);
-  });
-
   // QB
 
   test('QB production criteria property has passing yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(qbSample.passing_yards).toBe(passingYards);
   });
 
   test('QB production criteria property has passing touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(qbSample.passing_touchdowns).toBe(passingTouchdowns);
   });
 
   test('QB production criteria property has rushing yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(qbSample.rushing_yards).toBe(rushingYards);
   });
 
-  test('QB production criteria property has passing touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+  test('QB production criteria property has rushing touchdowns property', () => {
+    expect(qbSample.passing_touchdowns).toBe(rushingTouchdowns);
+  });
+
+  // RB
+
+  test('RB production criteria property has rushing yards property', () => {
+    expect(rbSample.rushing_yards).toBe(rushingYards);
+  });
+
+  test('RB production criteria property has receiving yards property', () => {
+    expect(rbSample.receiving_yards).toBe(receivingYards);
+  });
+
+  test('RB production criteria property has rushing touchdowns property', () => {
+    expect(rbSample.rushing_touchdowns).toBe(rushingTouchdowns);
+  });
+
+  test('RB production criteria property has receiving touchdowns property', () => {
+    expect(rbSample.receiving_touchdowns).toBe(receivingTouchdowns);
+  });
+
+  test('RB production criteria property has receptions property', () => {
+    expect(rbSample.receptions).toBe(receptions);
   });
 
   // WR
 
   test('WR production criteria property has rushing yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(wrSample.rushing_yards).toBe(rushingYards);
   });
 
   test('WR production criteria property has receiving yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(wrSample.receiving_yards).toBe(receivingYards);
   });
 
   test('WR production criteria property has rushing touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(wrSample.rushing_touchdowns).toBe(rushingTouchdowns);
   });
 
   test('WR production criteria property has receiving touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(wrSample.receiving_touchdowns).toBe(receivingTouchdowns);
   });
 
   test('WR production criteria property has receptions property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(wrSample.receptions).toBe(receptions);
   });
 
   // TE
 
   test('TE production criteria property has rushing yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(teSample.rushing_yards).toBe(rushingYards);
   });
 
   test('TE production criteria property has receiving yards property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(teSample.receiving_yards).toBe(receivingYards);
   });
 
   test('TE production criteria property has rushing touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(teSample.rushing_touchdowns).toBe(rushingYards);
   });
 
   test('TE production criteria property has receiving touchdowns property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(teSample.receiving_touchdowns).toBe(receivingTouchdowns);
   });
 
   test('TE production criteria property has receptions property', () => {
-    expect(offenseObject.points).toBe(games);
+    expect(teSample.receptions).toBe(receptions);
   });
 });
