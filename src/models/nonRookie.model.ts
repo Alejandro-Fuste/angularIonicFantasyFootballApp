@@ -88,23 +88,7 @@ export class NonRookie extends Grade {
         passing_yards: this.passing_yards,
         passing_touchdowns: this.passing_touchdowns,
       };
-    } else if (position === 'RB') {
-      object = {
-        ...this.baseObject,
-        targets: this.targets,
-        receiving_yards: this.receiving_yards,
-        receiving_touchdowns: this.receiving_touchdowns,
-        receptions: this.receptions,
-      };
-    } else if (position === 'WR') {
-      object = {
-        ...this.baseObject,
-        targets: this.targets,
-        receiving_yards: this.receiving_yards,
-        receiving_touchdowns: this.receiving_touchdowns,
-        receptions: this.receptions,
-      };
-    } else if (position === 'TE') {
+    } else {
       object = {
         ...this.baseObject,
         targets: this.targets,
@@ -113,6 +97,7 @@ export class NonRookie extends Grade {
         receptions: this.receptions,
       };
     }
+
     return (object = { ...this.baseObject });
   }
 
