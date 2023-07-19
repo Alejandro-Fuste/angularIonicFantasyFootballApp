@@ -68,23 +68,7 @@ export class NonRookie extends Grade {
     let array!: Array<number | undefined>;
     if (position === 'QB') {
       array = [...this.baseArray, this.passing_yards, this.passing_touchdowns];
-    } else if (position === 'RB') {
-      array = [
-        ...this.baseArray,
-        this.targets,
-        this.receiving_yards,
-        this.receiving_touchdowns,
-        this.receptions,
-      ];
-    } else if (position === 'WR') {
-      array = [
-        ...this.baseArray,
-        this.targets,
-        this.receiving_yards,
-        this.receiving_touchdowns,
-        this.receptions,
-      ];
-    } else if (position === 'TE') {
+    } else {
       array = [
         ...this.baseArray,
         this.targets,
