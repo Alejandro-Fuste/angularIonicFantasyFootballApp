@@ -201,11 +201,11 @@
     "denver_broncos": {
       "2023": {
         "offensive_coordinator": 80,
-        "offensive_line": "",
+        "offensive_line": 78,
         "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
+          "russell_wilson": 81,
+          "jarrett_stidham": 67,
+          "ben_dinucci": 62
         }
       }
     },
