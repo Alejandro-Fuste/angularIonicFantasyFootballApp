@@ -1,6 +1,6 @@
 import { Grade } from './grade.model';
 
-interface NonRookieProps {
+interface ProductionProps {
   position: string;
   games: number;
   snaps: number;
@@ -15,7 +15,7 @@ interface NonRookieProps {
   receptions?: number;
 }
 
-export class NonRookie extends Grade {
+export class Production extends Grade {
   constructor(
     public position: string,
     public games: number,
@@ -83,8 +83,8 @@ export class NonRookie extends Grade {
     }
   }
 
-  propertyValueConstructor(position: string): NonRookieProps {
-    let object!: NonRookieProps;
+  propertyValueConstructor(position: string): ProductionProps {
+    let object!: ProductionProps;
     if (position === 'QB') {
       return (object = {
         ...this.baseObject,
@@ -109,7 +109,7 @@ export class NonRookie extends Grade {
     description: string;
     points: number;
     percentage: number | string;
-    propertyValues: NonRookieProps;
+    propertyValues: ProductionProps;
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),

@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { NonRookie } from '../../src/models/production.model';
+import { Production } from '../../src/models/production.model';
 
 const position = 'QB';
 const position2 = 'RB';
@@ -18,7 +18,7 @@ const receivingTouchdowns = 3;
 const passingTouchdowns = 15;
 const passingYards = 3015;
 
-const qbSample = new NonRookie(
+const qbSample = new Production(
   position,
   games,
   snaps,
@@ -33,7 +33,7 @@ const qbSample = new NonRookie(
   undefined
 );
 
-const rbSample = new NonRookie(
+const rbSample = new Production(
   position2,
   games,
   snaps,
@@ -48,7 +48,7 @@ const rbSample = new NonRookie(
   receptions
 );
 
-const wrSample = new NonRookie(
+const wrSample = new Production(
   position3,
   games,
   snaps,
@@ -63,7 +63,7 @@ const wrSample = new NonRookie(
   receptions
 );
 
-const teSample = new NonRookie(
+const teSample = new Production(
   position4,
   games,
   snaps,
@@ -81,7 +81,7 @@ const teSample = new NonRookie(
 const qbObject = qbSample.arrayConstructor('QB');
 const qbArray = qbObject[6];
 
-describe('non-rookie model tests', () => {
+describe('production model tests', () => {
   // array constructor tests
 
   test('array constructor method returns array with passing_touchdowns RB', () => {
