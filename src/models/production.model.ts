@@ -2,10 +2,6 @@ import { Grade } from './grade.model';
 
 interface ProductionProps {
   position: string;
-  games: number;
-  snaps: number;
-  carries?: number;
-  targets?: number;
   passing_yards?: number;
   rushing_yards?: number;
   receiving_yards?: number;
@@ -18,10 +14,6 @@ interface ProductionProps {
 export class Production extends Grade {
   constructor(
     public position: string,
-    public games: number,
-    public snaps: number,
-    public carries?: number,
-    public targets?: number,
     public passing_yards?: number,
     public rushing_yards?: number,
     public receiving_yards?: number,
@@ -33,10 +25,6 @@ export class Production extends Grade {
     super();
 
     this.position = position;
-    this.games = games;
-    this.snaps = snaps;
-    this.carries = carries;
-    this.targets = targets;
     this.passing_yards = passing_yards;
     this.rushing_yards = rushing_yards;
     this.receiving_yards = receiving_yards;
@@ -49,17 +37,11 @@ export class Production extends Grade {
   possibleTotalPoints: number = 0;
 
   baseArray: Array<number | undefined> = [
-    this.games,
-    this.snaps,
-    this.carries,
     this.rushing_yards,
     this.rushing_touchdowns,
   ];
 
   baseObject: any = {
-    games: this.games,
-    snaps: this.snaps,
-    carries: this.carries,
     rushing_yards: this.rushing_yards,
     rushing_touchdowns: this.rushing_touchdowns,
   };
@@ -75,7 +57,6 @@ export class Production extends Grade {
     } else {
       return (array = [
         ...this.baseArray,
-        this.targets,
         this.receiving_yards,
         this.receiving_touchdowns,
         this.receptions,
@@ -94,7 +75,6 @@ export class Production extends Grade {
     } else {
       return (object = {
         ...this.baseObject,
-        targets: this.targets,
         receiving_yards: this.receiving_yards,
         receiving_touchdowns: this.receiving_touchdowns,
         receptions: this.receptions,

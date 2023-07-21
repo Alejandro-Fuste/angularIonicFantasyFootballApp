@@ -1,13 +1,32 @@
 import { Grade } from './grade.model';
 
 export class Opportunity extends Grade {
-  constructor(public depthChart: number) {
+  constructor(
+    public experience: number,
+    public depthChart: number,
+    public position: string,
+    public games?: number,
+    public snaps?: number,
+    public carries?: number,
+    public targets?: number
+  ) {
     super();
 
+    this.experience = experience;
     this.depthChart = depthChart;
+    this.position = position;
+    this.games = games;
+    this.snaps = snaps;
+    this.carries = carries;
+    this.targets = targets;
   }
 
-  array: Array<number> = [this.depthChart];
+  array: Array<number | undefined> = [
+    this.depthChart,
+    this.games,
+    this.snaps,
+    this.carries,
+  ];
 
   possibleTotalPoints: number = 100;
 
