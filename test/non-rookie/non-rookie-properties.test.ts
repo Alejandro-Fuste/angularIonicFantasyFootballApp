@@ -1,7 +1,10 @@
 import { describe, expect, test } from '@jest/globals';
 import { NonRookie } from '../../src/models/nonRookie.model';
 
-const position = 'RB';
+const position = 'QB';
+const position2 = 'RB';
+const position3 = 'WR';
+const position4 = 'TE';
 const games = 13;
 const snaps = 0;
 const carries = 230;
@@ -30,7 +33,7 @@ const qbSample = new NonRookie(
 );
 
 const rbSample = new NonRookie(
-  position,
+  position2,
   games,
   snaps,
   carries,
@@ -45,7 +48,7 @@ const rbSample = new NonRookie(
 );
 
 const wrSample = new NonRookie(
-  position,
+  position3,
   games,
   snaps,
   undefined,
@@ -60,7 +63,7 @@ const wrSample = new NonRookie(
 );
 
 const teSample = new NonRookie(
-  position,
+  position4,
   games,
   snaps,
   undefined,
@@ -114,7 +117,7 @@ describe('non-rookie model tests', () => {
   });
 
   test('QB production criteria property has rushing touchdowns property', () => {
-    expect(qbSample.passing_touchdowns).toBe(rushingTouchdowns);
+    expect(qbSample.rushing_touchdowns).toBe(rushingTouchdowns);
   });
 
   // RB
@@ -172,7 +175,7 @@ describe('non-rookie model tests', () => {
   });
 
   test('TE production criteria property has rushing touchdowns property', () => {
-    expect(teSample.rushing_touchdowns).toBe(rushingYards);
+    expect(teSample.rushing_touchdowns).toBe(rushingTouchdowns);
   });
 
   test('TE production criteria property has receiving touchdowns property', () => {

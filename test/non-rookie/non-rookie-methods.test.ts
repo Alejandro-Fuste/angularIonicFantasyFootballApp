@@ -1,10 +1,14 @@
 import { describe, expect, test } from '@jest/globals';
 import { NonRookie } from '../../src/models/nonRookie.model';
 
-const position = 'RB';
+const position = 'QB';
+const position2 = 'RB';
+const position3 = 'WR';
+const position4 = 'TE';
 const games = 13;
 const snaps = 0;
 const carries = 230;
+const carries2 = 0;
 const targets = 70;
 const receptions = 45;
 const rushingYards = 1006;
@@ -30,7 +34,7 @@ const qbSample = new NonRookie(
 );
 
 const rbSample = new NonRookie(
-  position,
+  position2,
   games,
   snaps,
   carries,
@@ -45,10 +49,10 @@ const rbSample = new NonRookie(
 );
 
 const wrSample = new NonRookie(
-  position,
+  position3,
   games,
   snaps,
-  undefined,
+  carries2,
   targets,
   undefined,
   rushingYards,
@@ -60,10 +64,10 @@ const wrSample = new NonRookie(
 );
 
 const teSample = new NonRookie(
-  position,
+  position4,
   games,
   snaps,
-  undefined,
+  carries2,
   targets,
   undefined,
   rushingYards,
@@ -74,11 +78,15 @@ const teSample = new NonRookie(
   receptions
 );
 
+const qbObject = qbSample.arrayConstructor('QB');
+const qbArray = qbObject[6];
+
 describe('non-rookie model tests', () => {
   // array constructor tests
 
   test('array constructor method returns array with passing_touchdowns RB', () => {
-    expect(rbSample.arrayConstructor('RB')[6]).toBe(passingTouchdowns);
+    console.log(qbObject);
+    expect(qbArray).toBe(passingTouchdowns);
   });
 
   test('array constructor method returns array with receiving_touchdowns RB', () => {
@@ -88,6 +96,7 @@ describe('non-rookie model tests', () => {
   // property value constructor tests
 
   test('property value constructor method returns object with passing_yards for QB', () => {
+    console.log(qbSample.returnObject());
     expect(qbSample.returnObject().propertyValues.passing_yards).toBe(
       passingYards
     );
@@ -116,6 +125,7 @@ describe('non-rookie model tests', () => {
   });
 
   test('property value constructor method returns object with touchdowns for TE', () => {
+    console.log(teSample.returnObject());
     expect(teSample.returnObject().propertyValues.receiving_touchdowns).toBe(
       receivingTouchdowns
     );

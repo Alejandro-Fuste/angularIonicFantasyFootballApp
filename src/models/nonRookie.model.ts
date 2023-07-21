@@ -67,38 +67,39 @@ export class NonRookie extends Grade {
   arrayConstructor(position: string): Array<number | undefined> {
     let array!: Array<number | undefined>;
     if (position === 'QB') {
-      array = [...this.baseArray, this.passing_yards, this.passing_touchdowns];
+      return (array = [
+        ...this.baseArray,
+        this.passing_yards,
+        this.passing_touchdowns,
+      ]);
     } else {
-      array = [
+      return (array = [
         ...this.baseArray,
         this.targets,
         this.receiving_yards,
         this.receiving_touchdowns,
         this.receptions,
-      ];
+      ]);
     }
-    return (array = []);
   }
 
   propertyValueConstructor(position: string): NonRookieProps {
     let object!: NonRookieProps;
     if (position === 'QB') {
-      object = {
+      return (object = {
         ...this.baseObject,
         passing_yards: this.passing_yards,
         passing_touchdowns: this.passing_touchdowns,
-      };
+      });
     } else {
-      object = {
+      return (object = {
         ...this.baseObject,
         targets: this.targets,
         receiving_yards: this.receiving_yards,
         receiving_touchdowns: this.receiving_touchdowns,
         receptions: this.receptions,
-      };
+      });
     }
-
-    return (object = { ...this.baseObject });
   }
 
   array: Array<number | undefined> = this.arrayConstructor(this.position);
