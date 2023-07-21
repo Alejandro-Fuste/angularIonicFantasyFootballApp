@@ -34,8 +34,6 @@ export class Production extends Grade {
     this.receptions = receptions;
   }
 
-  possibleTotalPoints: number = 0;
-
   baseArray: Array<number | undefined> = [
     this.rushing_yards,
     this.rushing_touchdowns,
@@ -82,6 +80,16 @@ export class Production extends Grade {
     }
   }
 
+  possiblePointsSetter(position: string): number {
+    let possibleTotalPoints: number = 0;
+
+    if (position === 'QB') {
+      return (possibleTotalPoints = 667);
+    } else {
+      return (possibleTotalPoints = 500);
+    }
+  }
+
   array: Array<number | undefined> = this.arrayConstructor(this.position);
 
   returnObject(): {
@@ -93,7 +101,7 @@ export class Production extends Grade {
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
-      this.possibleTotalPoints
+      this.possiblePointsSetter(this.position)
     );
 
     let letterObject = super.criteriaGrade(percentage);
