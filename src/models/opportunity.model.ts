@@ -1,6 +1,6 @@
 import { Grade } from './grade.model';
 
-export class Rookie extends Grade {
+export class Opportunity extends Grade {
   constructor(public depthChart: number) {
     super();
 

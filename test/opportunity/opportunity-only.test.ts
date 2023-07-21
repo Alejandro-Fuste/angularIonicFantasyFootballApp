@@ -1,9 +1,9 @@
 import { describe, expect, test } from '@jest/globals';
-import { Rookie } from '../../src/models/rookie.model';
+import { Opportunity } from '../../src/models/opportunity.model';
 
 const depthChart = 86;
 
-const rookieSample = new Rookie(depthChart);
+const rookieSample = new Opportunity(depthChart);
 
 const rookieObject = rookieSample.returnObject();
 
