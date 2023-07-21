@@ -5,11 +5,7 @@ const position = 'QB';
 const position2 = 'RB';
 const position3 = 'WR';
 const position4 = 'TE';
-const games = 13;
-const snaps = 0;
-const carries = 230;
-const carries2 = 0;
-const targets = 70;
+
 const receptions = 45;
 const rushingYards = 1006;
 const receivingYards = 353;
@@ -20,10 +16,6 @@ const passingYards = 3015;
 
 const qbSample = new Production(
   position,
-  games,
-  snaps,
-  carries,
-  targets,
   passingYards,
   rushingYards,
   undefined,
@@ -35,10 +27,6 @@ const qbSample = new Production(
 
 const rbSample = new Production(
   position2,
-  games,
-  snaps,
-  carries,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -50,10 +38,6 @@ const rbSample = new Production(
 
 const wrSample = new Production(
   position3,
-  games,
-  snaps,
-  carries2,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -65,10 +49,6 @@ const wrSample = new Production(
 
 const teSample = new Production(
   position4,
-  games,
-  snaps,
-  carries2,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -112,10 +92,6 @@ describe('production model tests', () => {
     expect(rbSample.returnObject().propertyValues.rushing_yards).toBe(
       rushingYards
     );
-  });
-
-  test('property value constructor method returns object with targets for RB', () => {
-    expect(rbSample.returnObject().propertyValues.targets).toBe(targets);
   });
 
   test('property value constructor method returns object with receiving_yards for WR', () => {

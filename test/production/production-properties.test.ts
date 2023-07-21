@@ -19,10 +19,6 @@ const passingYards = 3015;
 
 const qbSample = new Production(
   position,
-  games,
-  snaps,
-  carries,
-  targets,
   passingYards,
   rushingYards,
   undefined,
@@ -34,10 +30,6 @@ const qbSample = new Production(
 
 const rbSample = new Production(
   position2,
-  games,
-  snaps,
-  carries,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -49,10 +41,6 @@ const rbSample = new Production(
 
 const wrSample = new Production(
   position3,
-  games,
-  snaps,
-  undefined,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -64,10 +52,6 @@ const wrSample = new Production(
 
 const teSample = new Production(
   position4,
-  games,
-  snaps,
-  undefined,
-  targets,
   undefined,
   rushingYards,
   receivingYards,
@@ -78,28 +62,6 @@ const teSample = new Production(
 );
 
 describe('production model tests', () => {
-  // opportunity property tests
-
-  test('opportunity criteria property has games property', () => {
-    expect(rbSample.games).toBe(games);
-  });
-
-  test('opportunity criteria property has snaps property', () => {
-    expect(rbSample.snaps).toBe(snaps);
-  });
-
-  test('opportunity criteria property has carries property', () => {
-    expect(rbSample.carries).toBe(carries);
-  });
-
-  test('opportunity criteria property has targets property', () => {
-    expect(rbSample.targets).toBe(targets);
-  });
-
-  test('opportunity criteria property has receptions property', () => {
-    expect(rbSample.receptions).toBe(receptions);
-  });
-
   // production property tests
 
   // QB
