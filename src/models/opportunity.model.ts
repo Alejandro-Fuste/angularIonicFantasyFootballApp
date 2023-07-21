@@ -1,5 +1,15 @@
 import { Grade } from './grade.model';
 
+interface OpportunityProps {
+  experience: number;
+  depthChart: number;
+  position: string;
+  games?: number;
+  snaps?: number;
+  carries?: number;
+  targets?: number;
+}
+
 export class Opportunity extends Grade {
   constructor(
     public experience: number,
@@ -21,23 +31,69 @@ export class Opportunity extends Grade {
     this.targets = targets;
   }
 
-  array: Array<number | undefined> = [
-    this.depthChart,
-    this.games,
-    this.snaps,
-    this.carries,
-  ];
+  possibleTotalPoints: number = 0;
 
-  possibleTotalPoints: number = 100;
+  baseArray: Array<number | undefined> = [this.depthChart];
+
+  baseObject: OpportunityProps = {
+    experience: this.experience,
+    depthChart: this.depthChart,
+    position: this.position,
+  };
+
+  variableSetter(
+    experience: number,
+    position: string
+  ): Array<number | undefined> {
+    let array!: Array<number | undefined>;
+    if (experience === 0) {
+      this.possibleTotalPoints = 100;
+      this.baseObject = { ...this.baseObject };
+      return (array = [...this.baseArray]);
+    } else if (experience >= 1 && position === 'QB') {
+      this.baseObject = {
+        ...this.baseObject,
+        games: this.games,
+        snaps: this.snaps,
+        carries: this.carries,
+      };
+      this.possibleTotalPoints = 400;
+      return (array = [
+        ...this.baseArray,
+        this.games,
+        this.snaps,
+        this.carries,
+      ]);
+    } else {
+      this.baseObject = {
+        ...this.baseObject,
+        games: this.games,
+        snaps: this.snaps,
+        carries: this.carries,
+        targets: this.targets,
+      };
+      this.possibleTotalPoints = 500;
+      return (array = [
+        ...this.baseArray,
+        this.games,
+        this.snaps,
+        this.carries,
+        this.targets,
+      ]);
+    }
+  }
+
+  array: Array<number | undefined> = this.variableSetter(
+    this.experience,
+    this.position
+  );
 
   returnObject(): {
     letter: string;
     description: string;
     points: number;
     percentage: number | string;
-    propertyValues: {
-      depthChart: number;
-    };
+    propertyValues: OpportunityProps;
   } {
     let percentage = super.percentage(
       super.sumCriteriaPoints(this.array),
@@ -51,9 +107,7 @@ export class Opportunity extends Grade {
       percentage,
       letter: letterObject.letter,
       description: letterObject.description,
-      propertyValues: {
-        depthChart: this.depthChart,
-      },
+      propertyValues: this.baseObject,
     };
   }
 }
