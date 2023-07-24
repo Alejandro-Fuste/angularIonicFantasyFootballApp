@@ -6,11 +6,14 @@ const position2 = 'RB';
 const position3 = 'WR';
 const position4 = 'TE';
 
-const receptions = 45;
-const rushingYards = 1006;
-const receivingYards = 353;
-const rushingTouchdowns = 7;
-const receivingTouchdowns = 3;
+const receptions = 55;
+const receptions2 = 136;
+const rushingYards = 95;
+const rushingYards2 = 55;
+const receivingYards = 55;
+const receivingYards2 = 147;
+const touchdowns = 3;
+const touchdowns2 = 11;
 const passingTouchdowns = 15;
 const passingYards = 3015;
 
@@ -20,8 +23,7 @@ const qbSample = new Production(
   rushingYards,
   undefined,
   passingTouchdowns,
-  rushingTouchdowns,
-  undefined,
+  touchdowns,
   undefined
 );
 
@@ -31,31 +33,28 @@ const rbSample = new Production(
   rushingYards,
   receivingYards,
   undefined,
-  rushingTouchdowns,
-  receivingTouchdowns,
+  touchdowns2,
   receptions
 );
 
 const wrSample = new Production(
   position3,
   undefined,
-  rushingYards,
-  receivingYards,
+  rushingYards2,
+  receivingYards2,
   undefined,
-  rushingTouchdowns,
-  receivingTouchdowns,
-  receptions
+  touchdowns2,
+  receptions2
 );
 
 const teSample = new Production(
   position4,
   undefined,
-  rushingYards,
-  receivingYards,
+  rushingYards2,
+  receivingYards2,
   undefined,
-  rushingTouchdowns,
-  receivingTouchdowns,
-  receptions
+  touchdowns2,
+  receptions2
 );
 
 const qbObject = qbSample.arrayConstructor('QB');
@@ -69,8 +68,8 @@ describe('production model tests', () => {
     expect(qbArray).toBe(passingTouchdowns);
   });
 
-  test('array constructor method returns array with receiving_touchdowns RB', () => {
-    expect(rbSample.arrayConstructor('RB')[7]).toBe(receivingTouchdowns);
+  test('array constructor method returns array with RB touchdowns', () => {
+    expect(rbSample.arrayConstructor('RB')[7]).toBe(touchdowns2);
   });
 
   // property value constructor tests
@@ -102,8 +101,6 @@ describe('production model tests', () => {
 
   test('property value constructor method returns object with touchdowns for TE', () => {
     console.log(teSample.returnObject());
-    expect(teSample.returnObject().propertyValues.receiving_touchdowns).toBe(
-      receivingTouchdowns
-    );
+    expect(teSample.returnObject().propertyValues.touchdowns).toBe(touchdowns2);
   });
 });
