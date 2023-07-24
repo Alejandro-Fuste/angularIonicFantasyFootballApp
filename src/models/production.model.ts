@@ -6,8 +6,7 @@ interface ProductionProps {
   rushing_yards?: number;
   receiving_yards?: number;
   passing_touchdowns?: number;
-  rushing_touchdowns?: number;
-  receiving_touchdowns?: number;
+  touchdowns?: number;
   receptions?: number;
 }
 
@@ -18,8 +17,7 @@ export class Production extends Grade {
     public rushing_yards?: number,
     public receiving_yards?: number,
     public passing_touchdowns?: number,
-    public rushing_touchdowns?: number,
-    public receiving_touchdowns?: number,
+    public touchdowns?: number,
     public receptions?: number
   ) {
     super();
@@ -29,19 +27,15 @@ export class Production extends Grade {
     this.rushing_yards = rushing_yards;
     this.receiving_yards = receiving_yards;
     this.passing_touchdowns = passing_touchdowns;
-    this.rushing_touchdowns = rushing_touchdowns;
-    this.receiving_touchdowns = receiving_touchdowns;
+    this.touchdowns = touchdowns;
     this.receptions = receptions;
   }
 
-  baseArray: Array<number | undefined> = [
-    this.rushing_yards,
-    this.rushing_touchdowns,
-  ];
+  baseArray: Array<number | undefined> = [this.rushing_yards, this.touchdowns];
 
   baseObject: any = {
     rushing_yards: this.rushing_yards,
-    rushing_touchdowns: this.rushing_touchdowns,
+    touchdowns: this.touchdowns,
   };
 
   arrayConstructor(position: string): Array<number | undefined> {
@@ -56,7 +50,6 @@ export class Production extends Grade {
       return (array = [
         ...this.baseArray,
         this.receiving_yards,
-        this.receiving_touchdowns,
         this.receptions,
       ]);
     }
@@ -74,7 +67,6 @@ export class Production extends Grade {
       return (object = {
         ...this.baseObject,
         receiving_yards: this.receiving_yards,
-        receiving_touchdowns: this.receiving_touchdowns,
         receptions: this.receptions,
       });
     }
