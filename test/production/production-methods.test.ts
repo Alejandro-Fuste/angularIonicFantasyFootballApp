@@ -23,7 +23,7 @@ let testObject = {
   rbSum: 300,
   wrSum: 485,
   teSum: 485,
-  qbPercentage: 61,
+  qbPercentage: 61.02,
   rbPercentage: 60,
   wrPercentage: 97,
   tePercentage: 97,
@@ -83,24 +83,22 @@ const teSample = new Production(
 );
 
 const qbObject = qbSample.arrayConstructor('QB');
-const qbArray = qbObject[6];
+const qbArray = qbObject[3];
 
 describe('production model tests', () => {
   // array constructor tests
 
-  test('array constructor method returns array with passing_touchdowns RB', () => {
-    console.log(qbObject);
+  test('array constructor method returns array with passing_touchdowns for QB', () => {
     expect(qbArray).toBe(passingTouchdowns);
   });
 
   test('array constructor method returns array with RB touchdowns', () => {
-    expect(rbSample.arrayConstructor('RB')[7]).toBe(touchdowns2);
+    expect(rbSample.arrayConstructor('RB')[1]).toBe(touchdowns2);
   });
 
   // property value constructor tests
 
   test('property value constructor method returns object with passing_yards for QB', () => {
-    console.log(qbSample.returnObject());
     expect(qbSample.returnObject().propertyValues.passing_yards).toBe(
       passingYards
     );
@@ -120,13 +118,12 @@ describe('production model tests', () => {
 
   test('property value constructor method returns object with receiving_yards for WR', () => {
     expect(wrSample.returnObject().propertyValues.receiving_yards).toBe(
-      receivingYards
+      receivingYards2
     );
   });
 
   test('property value constructor method returns object with touchdowns for TE', () => {
-    console.log(teSample.returnObject());
-    expect(teSample.returnObject().propertyValues.touchdowns).toBe(touchdowns2);
+    expect(teSample.returnObject().propertyValues.touchdowns).toBe(touchdowns3);
   });
 
   // return object tests
@@ -187,7 +184,7 @@ describe('production model tests', () => {
     expect(teSample.returnObject().points).toBe(testObject.teSum);
   });
 
-  test('percentage property for QB should be 61', () => {
+  test('percentage property for QB should be 61.02', () => {
     expect(qbSample.returnObject().percentage).toBe(testObject.qbPercentage);
   });
 
