@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import {} from '../../src/utils/productionCalculator';
+import ProductionCalculator from '../../src/utils/productionCalculator';
 
 const testInputs = {
   qb: {
@@ -47,4 +47,112 @@ const testInputs = {
 
 describe('production calculator tests', () => {
   // QB tests
+
+  test('QB production calculator for 5013 passing yards returns 167', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[0])
+    ).toBe(167);
+  });
+
+  test('QB production calculator for 5000 passing yards returns 167', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[1])
+    ).toBe(167);
+  });
+
+  test('QB production calculator for 4500 passing yards returns 157', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[2])
+    ).toBe(157);
+  });
+
+  test('QB production calculator for 4788 passing yards returns 157', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[3])
+    ).toBe(157);
+  });
+
+  test('QB production calculator for 4999 passing yards returns 157', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[4])
+    ).toBe(157);
+  });
+
+  test('QB production calculator for 4000 passing yards returns 147', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[5])
+    ).toBe(147);
+  });
+
+  test('QB production calculator for 4327 passing yards returns 147', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[6])
+    ).toBe(147);
+  });
+
+  test('QB production calculator for 4499 passing yards returns 147', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[7])
+    ).toBe(147);
+  });
+
+  test('QB production calculator for 3500 passing yards returns 137', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[9])
+    ).toBe(137);
+  });
+
+  test('QB production calculator for 3617 passing yards returns 137', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[10])
+    ).toBe(137);
+  });
+
+  test('QB production calculator for 3999 passing yards returns 127', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[11])
+    ).toBe(127);
+  });
+
+  test('QB production calculator for 3000 passing yards returns 127', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[12])
+    ).toBe(127);
+  });
+
+  test('QB production calculator for 3288 passing yards returns 127', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[13])
+    ).toBe(127);
+  });
+
+  test('QB production calculator for 3499 passing yards returns 127', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[14])
+    ).toBe(127);
+  });
+
+  test('QB production calculator for 1000 passing yards returns 110', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[15])
+    ).toBe(110);
+  });
+
+  test('QB production calculator for 1345 passing yards returns 110', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[16])
+    ).toBe(110);
+  });
+
+  test('QB production calculator for 2999 passing yards returns 110', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[17])
+    ).toBe(110);
+  });
+
+  test('QB production calculator for 891 passing yards returns 99', () => {
+    expect(
+      ProductionCalculator.QB.passing_yards(testInputs.qb.passing[17])
+    ).toBe(99);
+  });
 });
