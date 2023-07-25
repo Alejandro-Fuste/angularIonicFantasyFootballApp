@@ -136,8 +136,54 @@ export default {
     },
   },
   WR_TE: {
-    receiving_yards: (value: number): number => {},
-    touchdowns: (value: number): number => {},
-    receptions: (value: number): number => {},
+    receiving_yards: (value: number): number => {
+      if (value >= 1850) {
+        return 167;
+      } else if (value >= 1549 && value <= 1849) {
+        return 157;
+      } else if (value >= 1248 && value <= 1548) {
+        return 147;
+      } else if (value >= 1000 && value <= 1247) {
+        return 137;
+      } else if (value >= 800 && value <= 999) {
+        return 127;
+      } else if (value >= 500 && value <= 799) {
+        return 117;
+      } else {
+        return 99;
+      }
+    },
+    touchdowns: (value: number): number => {
+      if (value >= 20) {
+        return 167;
+      } else if (value >= 15 && value <= 19) {
+        return 157;
+      } else if (value >= 10 && value <= 14) {
+        return 147;
+      } else if (value >= 5 && value <= 9) {
+        return 137;
+      } else if (value >= 2 && value <= 4) {
+        return 127;
+      } else {
+        return 99;
+      }
+    },
+    receptions: (value: number): number => {
+      if (value >= 135) {
+        return 166;
+      } else if (value >= 114 && value <= 134) {
+        return 156;
+      } else if (value >= 93 && value <= 113) {
+        return 146;
+      } else if (value >= 72 && value <= 92) {
+        return 136;
+      } else if (value >= 51 && value <= 71) {
+        return 126;
+      } else if (value >= 30 && value <= 50) {
+        return 116;
+      } else {
+        return 98;
+      }
+    },
   },
 };
