@@ -157,11 +157,11 @@
     "pittsburgh_steelers": {
       "2023": {
         "offensive_coordinator": 60,
-        "offensive_line": "",
+        "offensive_line": 74,
         "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
+          "kenny_pickett": 76,
+          "mitchell_trubisky": 68,
+          "mason_rudolph": 63
         }
       }
     },
