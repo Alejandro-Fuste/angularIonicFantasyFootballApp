@@ -44,7 +44,7 @@ export default {
       } else if (value >= 20 && value <= 29) {
         return 137;
       } else if (value >= 10 && value <= 19) {
-        return 110;
+        return 127;
       } else {
         return 99;
       }
@@ -59,7 +59,7 @@ export default {
       } else if (value >= 6 && value <= 7) {
         return 137;
       } else if (value >= 2 && value <= 4) {
-        return 110;
+        return 127;
       } else {
         return 99;
       }
