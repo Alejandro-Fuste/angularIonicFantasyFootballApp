@@ -267,11 +267,11 @@
     "detroit_lions": {
       "2023": {
         "offensive_coordinator": 91,
-        "offensive_line": "",
+        "offensive_line": 80,
         "quarterback": {
-          "jared_goff": "",
-          "nate_sudfeld": "",
-          "hendon_hooker": ""
+          "jared_goff": 79,
+          "nate_sudfeld": 62,
+          "hendon_hooker": 68
         }
       }
     },
