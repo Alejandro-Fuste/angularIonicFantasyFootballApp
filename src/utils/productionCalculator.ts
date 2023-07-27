@@ -56,7 +56,7 @@ export default {
         return 157;
       } else if (value >= 8 && value <= 9) {
         return 147;
-      } else if (value >= 6 && value <= 7) {
+      } else if (value >= 5 && value <= 7) {
         return 137;
       } else if (value >= 2 && value <= 4) {
         return 127;
