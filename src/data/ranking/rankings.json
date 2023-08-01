@@ -102,11 +102,11 @@
     "new_england_patriots": {
       "2023": {
         "offensive_coordinator": 78,
-        "offensive_line": "",
+        "offensive_line": 78,
         "quarterback": {
-          "mac_jones": "",
-          "bailey_zappe": "",
-          "tracy_mcsorley": ""
+          "mac_jones": 76,
+          "bailey_zappe": 67,
+          "tracy_mcsorley": 58
         }
       }
     },
