@@ -8,7 +8,8 @@ const playersMap = new Map();
 for (const property in playerList) {
   if (
     positionsList.indexOf(playerList[property]["position"]) != -1 &&
-    playerList[property]["status"] === "Active"
+    playerList[property]["status"] === "Active" &&
+    playerList[property]["team"] != null
   ) {
     let data = {
       first_name: playerList[property]["first_name"],
