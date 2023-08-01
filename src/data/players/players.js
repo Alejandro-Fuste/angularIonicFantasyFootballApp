@@ -157,6 +157,14 @@ for (const property in playerList2) {
   console.log(`${property}: ${playerList2[property]["full_name"]}`);
   console.log(`${property}: ${playerList2[property]["position"]}`);
   console.log(`${property}: ${playerList2[property]["sportradar_id"]}`);
+  console.log(`${property}: ${playerList2[property]["first_name"]}`);
+  console.log(`${property}: ${playerList2[property]["last_name"]}`);
+  console.log(`${property}: ${playerList2[property]["team"]}`);
+  console.log(`${property}: ${playerList2[property]["age"]}`);
+  console.log(`${property}: ${playerList2[property]["birth_date"]}`);
+  console.log(`${property}: ${playerList2[property]["height"]}`);
+  console.log(`${property}: ${playerList2[property]["weight"]}`);
+  console.log(`${property}: ${playerList2[property]["years_exp"]}`);
 }
 
 // endpointMethods.getPlayerStats("4131d4ee-0318-4bb5-832a-4dec80668a4f");
