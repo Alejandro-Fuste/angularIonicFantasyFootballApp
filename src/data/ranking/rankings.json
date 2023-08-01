@@ -1,0 +1,356 @@
+{
+  "teams": {
+    "arizona_cardinals": {
+      "2023": {
+        "offensive_coordinator": 59,
+        "offensive_line": 73.6,
+        "quarterback": {
+          "clayton_tune": 63,
+          "david_blough": 65,
+          "kyler_murray": 84
+        }
+      }
+    },
+    "chicago_bears": {
+      "2023": {
+        "offensive_coordinator": 78,
+        "offensive_line": 74.6,
+        "quarterback": {
+          "justin_fields": 75,
+          "nathan_peterman": 63,
+          "pj_walker": 66
+        }
+      }
+    },
+    "houston_texans": {
+      "2023": {
+        "offensive_coordinator": 63,
+        "offensive_line": 75.8,
+        "quarterback": {
+          "case_keenum": 67,
+          "cj_stroud": 75,
+          "davis_mills": 67
+        }
+      }
+    },
+    "las_vegas_raiders": {
+      "2023": {
+        "offensive_coordinator": 82,
+        "offensive_line": 74.2,
+        "quarterback": {
+          "aidan_o'connell": 63,
+          "brian_hoyer": 63,
+          "jimmy_garoppolo": 75
+        }
+      }
+    },
+    "los_angeles_rams": {
+      "2023": {
+        "offensive_coordinator": 70,
+        "offensive_line": 73,
+        "quarterback": {
+          "brett_rypien": 64,
+          "matthew_stafford": 84,
+          "stetson_bennett": 66
+        }
+      }
+    },
+    "tampa_bay_buccaneers": {
+      "2023": {
+        "offensive_coordinator": 69,
+        "offensive_line": 74.8,
+        "quarterback": {
+          "baker_mayfield": 72,
+          "john_wolford": 64,
+          "kyle_trask": 65
+        }
+      }
+    },
+    "washington_commanders": {
+      "2023": {
+        "offensive_coordinators": 73,
+        "offensive_line": 72.6,
+        "quarterback": {
+          "jacoby_brissett": 72,
+          "jake_fromm": 59,
+          "sam_howell": 68
+        }
+      }
+    },
+    "buffalo_bills": {
+      "2023": {
+        "offensive_coordinator": 89,
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "miami_dolphins": {
+      "2023": {
+        "offensive_coordinator": 85,
+        "offensive_line": "",
+        "quarterback": {
+          "tua_tagovailoa": "",
+          "mike_white": "",
+          "skylar_thompson": ""
+        }
+      }
+    },
+    "new_england_patriots": {
+      "2023": {
+        "offensive_coordinator": 78,
+        "offensive_line": "",
+        "quarterback": {
+          "mac_jones": "",
+          "bailey_zappe": "",
+          "tracy_mcsorley": ""
+        }
+      }
+    },
+    "new_york_jets": {
+      "2023": {
+        "offensive_coordinator": 65,
+        "offensive_line": "",
+        "quarterback": {
+          "josh_allen": "",
+          "kyle_allen": "",
+          "matt_barkley": ""
+        }
+      }
+    },
+    "baltimore_ravens": {
+      "2023": {
+        "offensive_coordinator": 72,
+        "offensive_line": "",
+        "quarterback": {
+          "lamar_jackson": "",
+          "tyler_huntley": "",
+          "josh_johnson": ""
+        }
+      }
+    },
+    "cincinatti_bengals": {
+      "2023": {
+        "offensive_coordinator": 87,
+        "offensive_line": "",
+        "quarterback": {
+          "joe_burrow": "",
+          "trevor_siemian": "",
+          "jake_browning": ""
+        }
+      }
+    },
+    "cleveland_browns": {
+      "2023": {
+        "offensive_coordinator": 81,
+        "offensive_line": "",
+        "quarterback": {
+          "deshaun_watson": "",
+          "joshua_dobbs": "",
+          "dorian_thompson_robinson": ""
+        }
+      }
+    },
+    "pittsburgh_steelers": {
+      "2023": {
+        "offensive_coordinator": 60,
+        "offensive_line": 74,
+        "quarterback": {
+          "kenny_pickett": 76,
+          "mitchell_trubisky": 68,
+          "mason_rudolph": 63
+        }
+      }
+    },
+    "indianapolis_colts": {
+      "2023": {
+        "offensive_coordinator": 60,
+        "offensive_line": 77.4,
+        "quarterback": {
+          "anthony_richardson": 69,
+          "garnder_minshew": 70,
+          "sam_elinger": 62
+        }
+      }
+    },
+    "jacksonville_jaguars": {
+      "2023": {
+        "offensive_coordinator": 84,
+        "offensive_line": "",
+        "quarterback": {
+          "trevor_lawrence": "",
+          "cj_beathard": "",
+          "nathan_rourke": ""
+        }
+      }
+    },
+    "tennessee_titans": {
+      "2023": {
+        "offensive_coordinator": 71,
+        "offensive_line": 69.8,
+        "quarterback": {
+          "ryan_tannehill": 77,
+          "will_levis": 70,
+          "malik_willis": 63
+        }
+      }
+    },
+    "denver_broncos": {
+      "2023": {
+        "offensive_coordinator": 80,
+        "offensive_line": 78,
+        "quarterback": {
+          "russell_wilson": 81,
+          "jarrett_stidham": 67,
+          "ben_dinucci": 62
+        }
+      }
+    },
+    "kansas_city_chiefs": {
+      "2023": {
+        "offensive_coordinator": 99,
+        "offensive_line": "",
+        "quarterback": {
+          "patrick_mahomes": "",
+          "blaine_gabbert": "",
+          "shane_buechele": ""
+        }
+      }
+    },
+    "los_angeles_chargers": {
+      "2023": {
+        "offensive_coordinator": 95,
+        "offensive_line": "",
+        "quarterback": {
+          "justin_herbert": "",
+          "easton_stick": "",
+          "max_duggan": ""
+        }
+      }
+    },
+    "dallas_cowboys": {
+      "2023": {
+        "offensive_coordinator": 93,
+        "offensive_line": "",
+        "quarterback": {
+          "dak_prescott": "",
+          "cooper_rush": "",
+          "will_grier": ""
+        }
+      }
+    },
+    "philadelphia_eagles": {
+      "2023": {
+        "offensive_coordinator": 97,
+        "offensive_line": "",
+        "quarterback": {
+          "jalen_hurts": "",
+          "marcus_mariota": "",
+          "ian_book": ""
+        }
+      }
+    },
+    "new_york_giants": {
+      "2023": {
+        "offensive_coordinator": 79,
+        "offensive_line": "",
+        "quarterback": {
+          "daniel_jones": "",
+          "tyrod_taylor": "",
+          "tommy_devito": ""
+        }
+      }
+    },
+    "detroit_lions": {
+      "2023": {
+        "offensive_coordinator": 91,
+        "offensive_line": 80,
+        "quarterback": {
+          "jared_goff": 79,
+          "nate_sudfeld": 62,
+          "hendon_hooker": 68
+        }
+      }
+    },
+    "green_bay_packers": {
+      "2023": {
+        "offensive_coordinator": 80,
+        "offensive_line": 82,
+        "quarterback": {
+          "jordan_love": 74,
+          "sean_clifford": 57,
+          "danny_etling": 57
+        }
+      }
+    },
+    "minnesota_vikings": {
+      "2023": {
+        "offensive_coordinator": 86,
+        "offensive_line": "",
+        "quarterback": {
+          "kirk_cousins": "",
+          "nick_mullens": "",
+          "jaren_hall": ""
+        }
+      }
+    },
+    "carolina_panthers": {
+      "2023": {
+        "offensive_coordinator": 74,
+        "offensive_line": 78,
+        "quarterback": {
+          "bryce_young": 78,
+          "andy_dalton": 72,
+          "matt_corral": 66
+        }
+      }
+    },
+    "atlanta_falcons": {
+      "2023": {
+        "offensive_coordinator": 78,
+        "offensive_line": 78.8,
+        "quarterback": {
+          "desmond_ridder": 70,
+          "taylor_heinicke": 69,
+          "logan_woodside": 62
+        }
+      }
+    },
+    "new_orleans_saints": {
+      "2023": {
+        "offensive_coordinator": 75,
+        "offensive_line": 74.8,
+        "quarterback": {
+          "derek_carr": 77,
+          "jameis_winston": 70,
+          "jake_haener": 64
+        }
+      }
+    },
+    "seattle_seahawks": {
+      "2023": {
+        "offensive_coordinator": 83,
+        "offensive_line": "",
+        "quarterback": {
+          "geno_smith": "",
+          "drew_lock": "",
+          "holton_ahlers": ""
+        }
+      }
+    },
+    "san_francisco": {
+      "2023": {
+        "offensive_coordinator": 88,
+        "offensive_line": "",
+        "quarterback": {
+          "brock_purdy": "",
+          "sam_darnold": "",
+          "trey_lance": ""
+        }
+      }
+    }
+  }
+}
