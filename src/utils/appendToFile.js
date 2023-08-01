@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 function appendToFile(fileName, data) {
-  fs.appendFile(fileName, data + "\n", (err) => {
+  fs.appendFile(fileName, data, (err) => {
     if (err) {
       throw err;
     } else {
