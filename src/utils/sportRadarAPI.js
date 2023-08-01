@@ -1,20 +1,33 @@
-const fetchFunction = require("./fetchFunction");
-const writeToFile = require("./writeToFile");
-const TEAMS_URI =
-  "http://api.sportradar.us/nfl/official/trial/v7/en/league/hierarchy.json?api_key=m4ba6ntt4qdy2c3rpjbafkm8";
+import { sportRadarAPIKey } from "../environments/environment";
 
-const getTeams = async () => {
-  try {
-    const response = await fetch(TEAMS_URI);
-    const teams = await response.json();
+const TEAMS_URI = `http://api.sportradar.us/nfl/official/trial/v7/en/league/hierarchy.json?api_key=m4ba6ntt4qdy2c3rpjbafkm8`;
 
-    if (response.ok) {
-      console.log(teams);
-      addTeams(teams);
+const endpointMethods = {
+  getTeams: async () => {
+    try {
+      const response = await fetch(TEAMS_URI);
+      const teams = await response.json();
+    } catch (error) {
+      console.error("Error:", error);
     }
-  } catch (error) {
-    console.error("Error:", error);
-  }
+  },
+  getPlayerStats: async (playerId) => {
+    const PLAYER_STATS_URI =
+      "http://api.sportradar.us/nfl/official/trial/v7/en/players/" +
+      playerId +
+      "/profile.json?api_key=m4ba6ntt4qdy2c3rpjbafkm8";
+
+    try {
+      const response = await fetch(PLAYER_STATS_URI);
+      const player = await response.json();
+
+      if (response.ok) {
+        console.log(player);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  },
 };
 
-getTeams();
+module.exports = endpointMethods;
