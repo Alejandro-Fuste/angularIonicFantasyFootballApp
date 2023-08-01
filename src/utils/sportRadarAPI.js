@@ -1,5 +1,3 @@
-import { sportRadarAPIKey } from "../environments/environment";
-
 const TEAMS_URI = `http://api.sportradar.us/nfl/official/trial/v7/en/league/hierarchy.json?api_key=m4ba6ntt4qdy2c3rpjbafkm8`;
 
 const endpointMethods = {

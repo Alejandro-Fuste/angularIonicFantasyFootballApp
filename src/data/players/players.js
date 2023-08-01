@@ -1,3 +1,7 @@
+const endpointMethods = require("../../utils/sportRadarAPI");
+
+endpointMethods.getPlayerStats("4131d4ee-0318-4bb5-832a-4dec80668a4f");
+
 /*
 
     "sportradar_id": "1111"
