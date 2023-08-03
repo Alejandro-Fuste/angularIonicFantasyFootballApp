@@ -289,11 +289,11 @@
     "minnesota_vikings": {
       "2023": {
         "offensive_coordinator": 86,
-        "offensive_line": "",
+        "offensive_line": 77,
         "quarterback": {
-          "kirk_cousins": "",
-          "nick_mullens": "",
-          "jaren_hall": ""
+          "kirk_cousins": 81,
+          "nick_mullens": 64,
+          "jaren_hall": 61
         }
       }
     },
