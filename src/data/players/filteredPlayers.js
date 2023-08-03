@@ -12,6 +12,7 @@ for (const property in playerList) {
     playerList[property]["team"] != null
   ) {
     let data = {
+      full_name: playerList[property]["full_name"],
       first_name: playerList[property]["first_name"],
       last_name: playerList[property]["last_name"],
       sportradar_id: playerList[property]["sportradar_id"],
@@ -29,7 +30,7 @@ for (const property in playerList) {
   }
 }
 
-var obj = Object.fromEntries(playersMap);
-var jsonString = JSON.stringify(obj, null, " ");
+let obj = Object.fromEntries(playersMap);
+let jsonString = JSON.stringify(obj, null, " ");
 
 writeToFile("./filteredPlayers.json", jsonString);

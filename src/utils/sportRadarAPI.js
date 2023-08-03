@@ -4,7 +4,7 @@ const endpointMethods = {
   getTeams: async () => {
     try {
       const response = await fetch(TEAMS_URI);
-      const teams = await response.json();
+      return await response.json();
     } catch (error) {
       console.error("Error:", error);
     }
@@ -17,13 +17,9 @@ const endpointMethods = {
 
     try {
       const response = await fetch(PLAYER_STATS_URI);
-      const player = await response.json();
-
-      if (response.ok) {
-        console.log(player);
-      }
+      return await response.json();
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error from sportRadarAPI file:", error);
     }
   },
 };
