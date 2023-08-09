@@ -1,105 +1,123 @@
 {
   "teams": {
     "arizona_cardinals": {
-      "2023": {
-        "offensive_coordinator": 59,
-        "offensive_line": 73.6,
-        "quarterback": {
-          "clayton_tune": 63,
-          "david_blough": 65,
-          "kyler_murray": 84
-        },
-        "playoff_schedule_strength": {
-          "QB": 23,
-          "RB": 8,
-          "WR": 26,
-          "TE": 25
+      "short_name": "ARI",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 59,
+          "offensive_line": 73.6,
+          "quarterback": {
+            "clayton_tune": 63,
+            "david_blough": 65,
+            "kyler_murray": 84
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 23,
+        "RB": 8,
+        "WR": 26,
+        "TE": 25
       }
     },
     "chicago_bears": {
-      "2023": {
-        "offensive_coordinator": 78,
-        "offensive_line": 74.6,
-        "quarterback": {
-          "justin_fields": 75,
-          "nathan_peterman": 63,
-          "pj_walker": 66
-        },
-        "playoff_schedule_strength": {
-          "QB": 25,
-          "RB": 4,
-          "WR": 22,
-          "TE": 9
+      "short_name": "CHI",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 78,
+          "offensive_line": 74.6,
+          "quarterback": {
+            "justin_fields": 75,
+            "nathan_peterman": 63,
+            "pj_walker": 66
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 25,
+        "RB": 4,
+        "WR": 22,
+        "TE": 9
       }
     },
     "houston_texans": {
-      "2023": {
-        "offensive_coordinator": 63,
-        "offensive_line": 75.8,
-        "quarterback": {
-          "case_keenum": 67,
-          "cj_stroud": 75,
-          "davis_mills": 67
-        },
-        "playoff_schedule_strength": {
-          "QB": 6,
-          "RB": 17,
-          "WR": 4,
-          "TE": 6
+      "short_name": "HOU",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 63,
+          "offensive_line": 75.8,
+          "quarterback": {
+            "case_keenum": 67,
+            "cj_stroud": 75,
+            "davis_mills": 67
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 6,
+        "RB": 17,
+        "WR": 4,
+        "TE": 6
       }
     },
     "las_vegas_raiders": {
-      "2023": {
-        "offensive_coordinator": 82,
-        "offensive_line": 74.2,
-        "quarterback": {
-          "aidan_o'connell": 63,
-          "brian_hoyer": 63,
-          "jimmy_garoppolo": 75
-        },
-        "playoff_schedule_strength": {
-          "QB": 12,
-          "RB": 6,
-          "WR": 25,
-          "TE": 16
+      "short_name": "LV",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 82,
+          "offensive_line": 74.2,
+          "quarterback": {
+            "aidan_o'connell": 63,
+            "brian_hoyer": 63,
+            "jimmy_garoppolo": 75
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 12,
+        "RB": 6,
+        "WR": 25,
+        "TE": 16
       }
     },
     "los_angeles_rams": {
-      "2023": {
-        "offensive_coordinator": 70,
-        "offensive_line": 73,
-        "quarterback": {
-          "brett_rypien": 64,
-          "matthew_stafford": 84,
-          "stetson_bennett": 66
-        },
-        "playoff_schedule_strength": {
-          "QB": 26,
-          "RB": 32,
-          "WR": 19,
-          "TE": 30
+      "short_name": "LAR",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 70,
+          "offensive_line": 73,
+          "quarterback": {
+            "brett_rypien": 64,
+            "matthew_stafford": 84,
+            "stetson_bennett": 66
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 26,
+        "RB": 32,
+        "WR": 19,
+        "TE": 30
       }
     },
     "tampa_bay_buccaneers": {
-      "2023": {
-        "offensive_coordinator": 69,
-        "offensive_line": 74.8,
-        "quarterback": {
-          "baker_mayfield": 72,
-          "john_wolford": 64,
-          "kyle_trask": 65
-        },
-        "playoff_schedule_strength": {
-          "QB": 22,
-          "RB": 16,
-          "WR": 15,
-          "TE": 27
+      "short_name": "TB",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 69,
+          "offensive_line": 74.8,
+          "quarterback": {
+            "baker_mayfield": 72,
+            "john_wolford": 64,
+            "kyle_trask": 65
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 22,
+        "RB": 16,
+        "WR": 15,
+        "TE": 27
       }
     },
     "washington_commanders": {
@@ -120,88 +138,103 @@
       }
     },
     "buffalo_bills": {
-      "2023": {
-        "offensive_coordinator": 89,
-        "offensive_line": "",
-        "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 14,
-          "RB": 25,
-          "WR": 9,
-          "TE": 22
+      "short_name": "BUF",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 89,
+          "offensive_line": "",
+          "quarterback": {
+            "josh_allen": "",
+            "kyle_allen": "",
+            "matt_barkley": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 14,
+        "RB": 25,
+        "WR": 9,
+        "TE": 22
       }
     },
     "miami_dolphins": {
-      "2023": {
-        "offensive_coordinator": 85,
-        "offensive_line": "",
-        "quarterback": {
-          "tua_tagovailoa": "",
-          "mike_white": "",
-          "skylar_thompson": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 31,
-          "RB": 29,
-          "WR": 21,
-          "TE": 31
+      "short_name": "MIA",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 85,
+          "offensive_line": "",
+          "quarterback": {
+            "tua_tagovailoa": "",
+            "mike_white": "",
+            "skylar_thompson": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 31,
+        "RB": 29,
+        "WR": 21,
+        "TE": 31
       }
     },
     "new_england_patriots": {
-      "2023": {
-        "offensive_coordinator": 78,
-        "offensive_line": 78,
-        "quarterback": {
-          "mac_jones": 76,
-          "bailey_zappe": 67,
-          "tracy_mcsorley": 58
-        },
-        "playoff_schedule_strength": {
-          "QB": 29,
-          "RB": 22,
-          "WR": 29,
-          "TE": 17
+      "short_name": "NE",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 78,
+          "offensive_line": 78,
+          "quarterback": {
+            "mac_jones": 76,
+            "bailey_zappe": 67,
+            "tracy_mcsorley": 58
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 29,
+        "RB": 22,
+        "WR": 29,
+        "TE": 17
       }
     },
     "new_york_jets": {
-      "2023": {
-        "offensive_coordinator": 65,
-        "offensive_line": "",
-        "quarterback": {
-          "josh_allen": "",
-          "kyle_allen": "",
-          "matt_barkley": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 15,
-          "RB": 24,
-          "WR": 16,
-          "TE": 26
+      "short_name": "NYJ",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 65,
+          "offensive_line": "",
+          "quarterback": {
+            "josh_allen": "",
+            "kyle_allen": "",
+            "matt_barkley": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 15,
+        "RB": 24,
+        "WR": 16,
+        "TE": 26
       }
     },
     "baltimore_ravens": {
-      "2023": {
-        "offensive_coordinator": 72,
-        "offensive_line": "",
-        "quarterback": {
-          "lamar_jackson": "",
-          "tyler_huntley": "",
-          "josh_johnson": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 9,
-          "RB": 27,
-          "WR": 11,
-          "TE": 8
+      "short_name": "BAL",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 72,
+          "offensive_line": "",
+          "quarterback": {
+            "lamar_jackson": "",
+            "tyler_huntley": "",
+            "josh_johnson": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 9,
+        "RB": 27,
+        "WR": 11,
+        "TE": 8
       }
     },
     "cincinatti_bengals": {
@@ -222,326 +255,383 @@
       }
     },
     "cleveland_browns": {
-      "2023": {
-        "offensive_coordinator": 81,
-        "offensive_line": "",
-        "quarterback": {
-          "deshaun_watson": "",
-          "joshua_dobbs": "",
-          "dorian_thompson_robinson": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 28,
-          "RB": 5,
-          "WR": 32,
-          "TE": 19
+      "short_name": "CIN",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 81,
+          "offensive_line": "",
+          "quarterback": {
+            "deshaun_watson": "",
+            "joshua_dobbs": "",
+            "dorian_thompson_robinson": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 28,
+        "RB": 5,
+        "WR": 32,
+        "TE": 19
       }
     },
     "pittsburgh_steelers": {
-      "2023": {
-        "offensive_coordinator": 60,
-        "offensive_line": 74,
-        "quarterback": {
-          "kenny_pickett": 76,
-          "mitchell_trubisky": 68,
-          "mason_rudolph": 63
-        },
-        "playoff_schedule_strength": {
-          "QB": 19,
-          "RB": 13,
-          "WR": 28,
-          "TE": 10
+      "short_name": "PIT",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 60,
+          "offensive_line": 74,
+          "quarterback": {
+            "kenny_pickett": 76,
+            "mitchell_trubisky": 68,
+            "mason_rudolph": 63
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 19,
+        "RB": 13,
+        "WR": 28,
+        "TE": 10
       }
     },
     "indianapolis_colts": {
-      "2023": {
-        "offensive_coordinator": 60,
-        "offensive_line": 77.4,
-        "quarterback": {
-          "anthony_richardson": 69,
-          "garnder_minshew": 70,
-          "sam_elinger": 62
-        },
-        "playoff_schedule_strength": {
-          "QB": 18,
-          "RB": 3,
-          "WR": 23,
-          "TE": 7
+      "short_name": "IND",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 60,
+          "offensive_line": 77.4,
+          "quarterback": {
+            "anthony_richardson": 69,
+            "garnder_minshew": 70,
+            "sam_elinger": 62
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 18,
+        "RB": 3,
+        "WR": 23,
+        "TE": 7
       }
     },
     "jacksonville_jaguars": {
-      "2023": {
-        "offensive_coordinator": 84,
-        "offensive_line": "",
-        "quarterback": {
-          "trevor_lawrence": "",
-          "cj_beathard": "",
-          "nathan_rourke": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 5,
-          "RB": 30,
-          "WR": 1,
-          "TE": 14
+      "short_name": "JAX",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 84,
+          "offensive_line": "",
+          "quarterback": {
+            "trevor_lawrence": "",
+            "cj_beathard": "",
+            "nathan_rourke": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 5,
+        "RB": 30,
+        "WR": 1,
+        "TE": 14
       }
     },
     "tennessee_titans": {
-      "2023": {
-        "offensive_coordinator": 71,
-        "offensive_line": 69.8,
-        "quarterback": {
-          "ryan_tannehill": 77,
-          "will_levis": 70,
-          "malik_willis": 63
-        },
-        "playoff_schedule_strength": {
-          "QB": 27,
-          "RB": 1,
-          "WR": 31,
-          "TE": 3
+      "short_name": "TEN",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 71,
+          "offensive_line": 69.8,
+          "quarterback": {
+            "ryan_tannehill": 77,
+            "will_levis": 70,
+            "malik_willis": 63
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 27,
+        "RB": 1,
+        "WR": 31,
+        "TE": 3
       }
     },
     "denver_broncos": {
-      "2023": {
-        "offensive_coordinator": 80,
-        "offensive_line": 78,
-        "quarterback": {
-          "russell_wilson": 81,
-          "jarrett_stidham": 67,
-          "ben_dinucci": 62
-        },
-        "playoff_schedule_strength": {
-          "QB": 3,
-          "RB": 12,
-          "WR": 7,
-          "TE": 12
+      "short_name": "DEN",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 80,
+          "offensive_line": 78,
+          "quarterback": {
+            "russell_wilson": 81,
+            "jarrett_stidham": 67,
+            "ben_dinucci": 62
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 3,
+        "RB": 12,
+        "WR": 7,
+        "TE": 12
       }
     },
     "kansas_city_chiefs": {
-      "2023": {
-        "offensive_coordinator": 99,
-        "offensive_line": "",
-        "quarterback": {
-          "patrick_mahomes": "",
-          "blaine_gabbert": "",
-          "shane_buechele": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 20,
-          "RB": 15,
-          "WR": 24,
-          "TE": 15
+      "short_name": "KC",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 99,
+          "offensive_line": "",
+          "quarterback": {
+            "patrick_mahomes": "",
+            "blaine_gabbert": "",
+            "shane_buechele": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 20,
+        "RB": 15,
+        "WR": 24,
+        "TE": 15
       }
     },
     "los_angeles_chargers": {
-      "2023": {
-        "offensive_coordinator": 95,
-        "offensive_line": "",
-        "quarterback": {
-          "justin_herbert": "",
-          "easton_stick": "",
-          "max_duggan": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 21,
-          "RB": 10,
-          "WR": 20,
-          "TE": 13
+      "short_name": "LAC",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 95,
+          "offensive_line": "",
+          "quarterback": {
+            "justin_herbert": "",
+            "easton_stick": "",
+            "max_duggan": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 21,
+        "RB": 10,
+        "WR": 20,
+        "TE": 13
       }
     },
     "dallas_cowboys": {
-      "2023": {
-        "offensive_coordinator": 93,
-        "offensive_line": "",
-        "quarterback": {
-          "dak_prescott": "",
-          "cooper_rush": "",
-          "will_grier": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 4,
-          "RB": 31,
-          "WR": 5,
-          "TE": 21
+      "short_name": "DAL",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 93,
+          "offensive_line": "",
+          "quarterback": {
+            "dak_prescott": "",
+            "cooper_rush": "",
+            "will_grier": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 4,
+        "RB": 31,
+        "WR": 5,
+        "TE": 21
       }
     },
     "philadelphia_eagles": {
-      "2023": {
-        "offensive_coordinator": 97,
-        "offensive_line": "",
-        "quarterback": {
-          "jalen_hurts": "",
-          "marcus_mariota": "",
-          "ian_book": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 10,
-          "RB": 2,
-          "WR": 27,
-          "TE": 1
+      "short_name": "PHI",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 97,
+          "offensive_line": "",
+          "quarterback": {
+            "jalen_hurts": "",
+            "marcus_mariota": "",
+            "ian_book": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 10,
+        "RB": 2,
+        "WR": 27,
+        "TE": 1
       }
     },
     "new_york_giants": {
-      "2023": {
-        "offensive_coordinator": 79,
-        "offensive_line": "",
-        "quarterback": {
-          "daniel_jones": "",
-          "tyrod_taylor": "",
-          "tommy_devito": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 32,
-          "RB": 20,
-          "WR": 30,
-          "TE": 29
+      "short_name": "NYG",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 79,
+          "offensive_line": "",
+          "quarterback": {
+            "daniel_jones": "",
+            "tyrod_taylor": "",
+            "tommy_devito": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 32,
+        "RB": 20,
+        "WR": 30,
+        "TE": 29
       }
     },
     "detroit_lions": {
-      "2023": {
-        "offensive_coordinator": 91,
-        "offensive_line": 80,
-        "quarterback": {
-          "jared_goff": 79,
-          "nate_sudfeld": 62,
-          "hendon_hooker": 68
-        },
-        "playoff_schedule_strength": {
-          "QB": 17,
-          "RB": 14,
-          "WR": 3,
-          "TE": 18
+      "short_name": "DET",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 91,
+          "offensive_line": 80,
+          "quarterback": {
+            "jared_goff": 79,
+            "nate_sudfeld": 62,
+            "hendon_hooker": 68
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 17,
+        "RB": 14,
+        "WR": 3,
+        "TE": 18
       }
     },
     "green_bay_packers": {
-      "2023": {
-        "offensive_coordinator": 80,
-        "offensive_line": 82,
-        "quarterback": {
-          "jordan_love": 74,
-          "sean_clifford": 57,
-          "danny_etling": 57
-        },
-        "playoff_schedule_strength": {
-          "QB": 1,
-          "RB": 11,
-          "WR": 2,
-          "TE": 23
+      "short_name": "GB",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 80,
+          "offensive_line": 82,
+          "quarterback": {
+            "jordan_love": 74,
+            "sean_clifford": 57,
+            "danny_etling": 57
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 1,
+        "RB": 11,
+        "WR": 2,
+        "TE": 23
       }
     },
     "minnesota_vikings": {
-      "2023": {
-        "offensive_coordinator": 86,
-        "offensive_line": 77,
-        "quarterback": {
-          "kirk_cousins": 81,
-          "nick_mullens": 64,
-          "jaren_hall": 61
-        },
-        "playoff_schedule_strength": {
-          "QB": 2,
-          "RB": 26,
-          "WR": 10,
-          "TE": 11
+      "short_name": "MIN",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 86,
+          "offensive_line": 77,
+          "quarterback": {
+            "kirk_cousins": 81,
+            "nick_mullens": 64,
+            "jaren_hall": 61
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 2,
+        "RB": 26,
+        "WR": 10,
+        "TE": 11
       }
     },
     "carolina_panthers": {
-      "2023": {
-        "offensive_coordinator": 74,
-        "offensive_line": 78,
-        "quarterback": {
-          "bryce_young": 78,
-          "andy_dalton": 72,
-          "matt_corral": 66
-        },
-        "playoff_schedule_strength": {
-          "QB": 11,
-          "RB": 21,
-          "WR": 13,
-          "TE": 2
+      "short_name": "CAR",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 74,
+          "offensive_line": 78,
+          "quarterback": {
+            "bryce_young": 78,
+            "andy_dalton": 72,
+            "matt_corral": 66
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 11,
+        "RB": 21,
+        "WR": 13,
+        "TE": 2
       }
     },
     "atlanta_falcons": {
-      "2023": {
-        "offensive_coordinator": 78,
-        "offensive_line": 78.8,
-        "quarterback": {
-          "desmond_ridder": 70,
-          "taylor_heinicke": 69,
-          "logan_woodside": 62
-        },
-        "playoff_schedule_strength": {
-          "QB": 8,
-          "RB": 7,
-          "WR": 17,
-          "TE": 32
+      "short_name": "ATL",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 78,
+          "offensive_line": 78.8,
+          "quarterback": {
+            "desmond_ridder": 70,
+            "taylor_heinicke": 69,
+            "logan_woodside": 62
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 8,
+        "RB": 7,
+        "WR": 17,
+        "TE": 32
       }
     },
     "new_orleans_saints": {
-      "2023": {
-        "offensive_coordinator": 75,
-        "offensive_line": 74.8,
-        "quarterback": {
-          "derek_carr": 77,
-          "jameis_winston": 70,
-          "jake_haener": 64
-        },
-        "playoff_schedule_strength": {
-          "QB": 16,
-          "RB": 23,
-          "WR": 8,
-          "TE": 5
+      "short_name": "NO",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 75,
+          "offensive_line": 74.8,
+          "quarterback": {
+            "derek_carr": 77,
+            "jameis_winston": 70,
+            "jake_haener": 64
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 16,
+        "RB": 23,
+        "WR": 8,
+        "TE": 5
       }
     },
     "seattle_seahawks": {
-      "2023": {
-        "offensive_coordinator": 83,
-        "offensive_line": 73,
-        "quarterback": {
-          "geno_smith": 79,
-          "drew_lock": 66,
-          "holton_ahlers": 59
-        },
-        "playoff_schedule_strength": {
-          "QB": 13,
-          "RB": 18,
-          "WR": 14,
-          "TE": 4
+      "short_name": "SEA",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 83,
+          "offensive_line": 73,
+          "quarterback": {
+            "geno_smith": 79,
+            "drew_lock": 66,
+            "holton_ahlers": 59
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 13,
+        "RB": 18,
+        "WR": 14,
+        "TE": 4
       }
     },
     "san_francisco": {
-      "2023": {
-        "offensive_coordinator": 88,
-        "offensive_line": "",
-        "quarterback": {
-          "brock_purdy": "",
-          "sam_darnold": "",
-          "trey_lance": ""
-        },
-        "playoff_schedule_strength": {
-          "QB": 24,
-          "RB": 19,
-          "WR": 12,
-          "TE": 20
+      "short_name": "SF",
+      "season": {
+        "2023": {
+          "offensive_coordinator": 88,
+          "offensive_line": "",
+          "quarterback": {
+            "brock_purdy": "",
+            "sam_darnold": "",
+            "trey_lance": ""
+          }
         }
+      },
+      "playoff_schedule_strength": {
+        "QB": 24,
+        "RB": 19,
+        "WR": 12,
+        "TE": 20
       }
     }
   }
