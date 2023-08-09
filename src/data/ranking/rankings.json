@@ -8,6 +8,12 @@
           "clayton_tune": 63,
           "david_blough": 65,
           "kyler_murray": 84
+        },
+        "playoff_schedule_strength": {
+          "QB": 23,
+          "RB": 8,
+          "WR": 26,
+          "TE": 25
         }
       }
     },
@@ -19,6 +25,12 @@
           "justin_fields": 75,
           "nathan_peterman": 63,
           "pj_walker": 66
+        },
+        "playoff_schedule_strength": {
+          "QB": 25,
+          "RB": 4,
+          "WR": 22,
+          "TE": 9
         }
       }
     },
@@ -30,6 +42,12 @@
           "case_keenum": 67,
           "cj_stroud": 75,
           "davis_mills": 67
+        },
+        "playoff_schedule_strength": {
+          "QB": 6,
+          "RB": 17,
+          "WR": 4,
+          "TE": 6
         }
       }
     },
@@ -41,6 +59,12 @@
           "aidan_o'connell": 63,
           "brian_hoyer": 63,
           "jimmy_garoppolo": 75
+        },
+        "playoff_schedule_strength": {
+          "QB": 12,
+          "RB": 6,
+          "WR": 25,
+          "TE": 16
         }
       }
     },
@@ -52,6 +76,12 @@
           "brett_rypien": 64,
           "matthew_stafford": 84,
           "stetson_bennett": 66
+        },
+        "playoff_schedule_strength": {
+          "QB": 26,
+          "RB": 32,
+          "WR": 19,
+          "TE": 30
         }
       }
     },
@@ -63,6 +93,12 @@
           "baker_mayfield": 72,
           "john_wolford": 64,
           "kyle_trask": 65
+        },
+        "playoff_schedule_strength": {
+          "QB": 22,
+          "RB": 16,
+          "WR": 15,
+          "TE": 27
         }
       }
     },
@@ -74,6 +110,12 @@
           "jacoby_brissett": 72,
           "jake_fromm": 59,
           "sam_howell": 68
+        },
+        "playoff_schedule_strength": {
+          "QB": 30,
+          "RB": 28,
+          "WR": 17,
+          "TE": 28
         }
       }
     },
@@ -85,6 +127,12 @@
           "josh_allen": "",
           "kyle_allen": "",
           "matt_barkley": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 14,
+          "RB": 25,
+          "WR": 9,
+          "TE": 22
         }
       }
     },
@@ -96,6 +144,12 @@
           "tua_tagovailoa": "",
           "mike_white": "",
           "skylar_thompson": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 31,
+          "RB": 29,
+          "WR": 21,
+          "TE": 31
         }
       }
     },
@@ -107,6 +161,12 @@
           "mac_jones": 76,
           "bailey_zappe": 67,
           "tracy_mcsorley": 58
+        },
+        "playoff_schedule_strength": {
+          "QB": 29,
+          "RB": 22,
+          "WR": 29,
+          "TE": 17
         }
       }
     },
@@ -118,6 +178,12 @@
           "josh_allen": "",
           "kyle_allen": "",
           "matt_barkley": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 15,
+          "RB": 24,
+          "WR": 16,
+          "TE": 26
         }
       }
     },
@@ -129,6 +195,12 @@
           "lamar_jackson": "",
           "tyler_huntley": "",
           "josh_johnson": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 9,
+          "RB": 27,
+          "WR": 11,
+          "TE": 8
         }
       }
     },
@@ -140,6 +212,12 @@
           "joe_burrow": "",
           "trevor_siemian": "",
           "jake_browning": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 7,
+          "RB": 9,
+          "WR": 6,
+          "TE": 24
         }
       }
     },
@@ -151,6 +229,12 @@
           "deshaun_watson": "",
           "joshua_dobbs": "",
           "dorian_thompson_robinson": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 28,
+          "RB": 5,
+          "WR": 32,
+          "TE": 19
         }
       }
     },
@@ -162,6 +246,12 @@
           "kenny_pickett": 76,
           "mitchell_trubisky": 68,
           "mason_rudolph": 63
+        },
+        "playoff_schedule_strength": {
+          "QB": 19,
+          "RB": 13,
+          "WR": 28,
+          "TE": 10
         }
       }
     },
@@ -173,6 +263,12 @@
           "anthony_richardson": 69,
           "garnder_minshew": 70,
           "sam_elinger": 62
+        },
+        "playoff_schedule_strength": {
+          "QB": 18,
+          "RB": 3,
+          "WR": 23,
+          "TE": 7
         }
       }
     },
@@ -184,6 +280,12 @@
           "trevor_lawrence": "",
           "cj_beathard": "",
           "nathan_rourke": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 5,
+          "RB": 30,
+          "WR": 1,
+          "TE": 14
         }
       }
     },
@@ -195,6 +297,12 @@
           "ryan_tannehill": 77,
           "will_levis": 70,
           "malik_willis": 63
+        },
+        "playoff_schedule_strength": {
+          "QB": 27,
+          "RB": 1,
+          "WR": 31,
+          "TE": 3
         }
       }
     },
@@ -206,6 +314,12 @@
           "russell_wilson": 81,
           "jarrett_stidham": 67,
           "ben_dinucci": 62
+        },
+        "playoff_schedule_strength": {
+          "QB": 3,
+          "RB": 12,
+          "WR": 7,
+          "TE": 12
         }
       }
     },
@@ -217,6 +331,12 @@
           "patrick_mahomes": "",
           "blaine_gabbert": "",
           "shane_buechele": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 20,
+          "RB": 15,
+          "WR": 24,
+          "TE": 15
         }
       }
     },
@@ -228,6 +348,12 @@
           "justin_herbert": "",
           "easton_stick": "",
           "max_duggan": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 21,
+          "RB": 10,
+          "WR": 20,
+          "TE": 13
         }
       }
     },
@@ -239,6 +365,12 @@
           "dak_prescott": "",
           "cooper_rush": "",
           "will_grier": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 4,
+          "RB": 31,
+          "WR": 5,
+          "TE": 21
         }
       }
     },
@@ -250,6 +382,12 @@
           "jalen_hurts": "",
           "marcus_mariota": "",
           "ian_book": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 10,
+          "RB": 2,
+          "WR": 27,
+          "TE": 1
         }
       }
     },
@@ -261,6 +399,12 @@
           "daniel_jones": "",
           "tyrod_taylor": "",
           "tommy_devito": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 32,
+          "RB": 20,
+          "WR": 30,
+          "TE": 29
         }
       }
     },
@@ -272,6 +416,12 @@
           "jared_goff": 79,
           "nate_sudfeld": 62,
           "hendon_hooker": 68
+        },
+        "playoff_schedule_strength": {
+          "QB": 17,
+          "RB": 14,
+          "WR": 3,
+          "TE": 18
         }
       }
     },
@@ -283,6 +433,12 @@
           "jordan_love": 74,
           "sean_clifford": 57,
           "danny_etling": 57
+        },
+        "playoff_schedule_strength": {
+          "QB": 1,
+          "RB": 11,
+          "WR": 2,
+          "TE": 23
         }
       }
     },
@@ -294,6 +450,12 @@
           "kirk_cousins": 81,
           "nick_mullens": 64,
           "jaren_hall": 61
+        },
+        "playoff_schedule_strength": {
+          "QB": 2,
+          "RB": 26,
+          "WR": 10,
+          "TE": 11
         }
       }
     },
@@ -305,6 +467,12 @@
           "bryce_young": 78,
           "andy_dalton": 72,
           "matt_corral": 66
+        },
+        "playoff_schedule_strength": {
+          "QB": 11,
+          "RB": 21,
+          "WR": 13,
+          "TE": 2
         }
       }
     },
@@ -316,6 +484,12 @@
           "desmond_ridder": 70,
           "taylor_heinicke": 69,
           "logan_woodside": 62
+        },
+        "playoff_schedule_strength": {
+          "QB": 8,
+          "RB": 7,
+          "WR": 17,
+          "TE": 32
         }
       }
     },
@@ -327,17 +501,29 @@
           "derek_carr": 77,
           "jameis_winston": 70,
           "jake_haener": 64
+        },
+        "playoff_schedule_strength": {
+          "QB": 16,
+          "RB": 23,
+          "WR": 8,
+          "TE": 5
         }
       }
     },
     "seattle_seahawks": {
       "2023": {
         "offensive_coordinator": 83,
-        "offensive_line": "",
+        "offensive_line": 73,
         "quarterback": {
-          "geno_smith": "",
-          "drew_lock": "",
-          "holton_ahlers": ""
+          "geno_smith": 79,
+          "drew_lock": 66,
+          "holton_ahlers": 59
+        },
+        "playoff_schedule_strength": {
+          "QB": 13,
+          "RB": 18,
+          "WR": 14,
+          "TE": 4
         }
       }
     },
@@ -349,6 +535,12 @@
           "brock_purdy": "",
           "sam_darnold": "",
           "trey_lance": ""
+        },
+        "playoff_schedule_strength": {
+          "QB": 24,
+          "RB": 19,
+          "WR": 12,
+          "TE": 20
         }
       }
     }

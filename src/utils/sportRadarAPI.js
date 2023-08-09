@@ -10,6 +10,7 @@ const endpointMethods = {
     }
   },
   getPlayerStats: async (playerId) => {
+    // const PLAYER_STATS_URI = "https://random-data-api.com/api/v2/beers?size=10";
     const PLAYER_STATS_URI =
       "http://api.sportradar.us/nfl/official/trial/v7/en/players/" +
       playerId +

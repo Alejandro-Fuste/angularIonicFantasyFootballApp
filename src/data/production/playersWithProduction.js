@@ -1,13 +1,7 @@
 // const filteredPlayers = require("../players/filteredPlayers.json");
 const productionAPI = require("../../utils/sportRadarAPI");
-const writeToFile = require("../../utils/writeToFile");
-
-// get previous year
-const date = new Date();
-const previousYear = date.getFullYear() - 1;
-
-// create new map to add objects
-const playersProductionMap = new Map();
+// const writeToFile = require("../../utils/writeToFile");
+const appendToFile = require("../../utils/appendToFile");
 
 const filteredPlayers = {
   "Justin Jefferson": {
@@ -40,26 +34,42 @@ const filteredPlayers = {
   },
 };
 
+const playersProductionMap = new Map();
+
 // make api call and write to json file
 async function getAndWriteData(id) {
+  // create new map to add objects
+
   let data = await productionAPI.getPlayerStats(id);
-  writeToFile("./playersProduction.json", JSON.stringify(data, null, " "));
+
+  let object = {
+    name: data.name,
+    first_name: data.first_name,
+    last_name: data.last_name,
+    sportradar_id: data.id,
+    position: data.position,
+    birth_date: data.birth_date,
+    experience: data.experience,
+    rookie_year: data.rookie_year,
+    height: data.height,
+    weight: data.height,
+    team: data.team,
+    stats: data.seasons,
+  };
+
+  // add production info to existing info
+  playersProductionMap.set(data["name"], object);
+
+  // convert map to json
+  let obj = Object.fromEntries(playersProductionMap);
+  let jsonString = JSON.stringify(obj, null, " ");
+
+  appendToFile("./playersProduction.json", jsonString);
+  return data;
 }
 
 // loop through filtered players
 for (const property in filteredPlayers) {
-  // only get previous year production
-
   // make api call
   getAndWriteData(filteredPlayers[property]["sportradar_id"]);
 }
-
-// add production info to existing info
-// playersProductionMap.set(filteredPlayers[property]["full_name"], data);
-
-// convert map to json
-// let obj = Object.fromEntries(playersProductionMap);
-// let jsonString = JSON.stringify(obj, null, " ");
-
-// write json to new file
-// writeToFile("./playersProduction.json", jsonString);
