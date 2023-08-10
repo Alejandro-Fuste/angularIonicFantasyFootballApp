@@ -221,20 +221,20 @@
       "short_name": "BAL",
       "season": {
         "2023": {
-          "offensive_coordinator": 72,
-          "offensive_line": "",
+          "offensive_coordinator": { "percent": 72, "letter": "C" },
+          "offensive_line": { "percent": "", "letter": "D" },
           "quarterback": {
-            "lamar_jackson": "",
-            "tyler_huntley": "",
-            "josh_johnson": ""
+            "lamar_jackson": { "percent": "", "letter": "D" },
+            "tyler_huntley": { "percent": "", "letter": "D" },
+            "josh_johnson": { "percent": "", "letter": "D" }
           }
         }
       },
       "playoff_schedule_strength": {
-        "QB": 9,
-        "RB": 27,
-        "WR": 11,
-        "TE": 8
+        "QB": { "raw": 9, "percent": 86, "letter": "B" },
+        "RB": { "raw": 27, "percent": 67, "letter": "D" },
+        "WR": { "raw": 11, "percent": 84, "letter": "B" },
+        "TE": { "raw": 8, "percent": 87, "letter": "B" }
       }
     },
     "cincinatti_bengals": {
@@ -258,20 +258,20 @@
       "short_name": "CIN",
       "season": {
         "2023": {
-          "offensive_coordinator": 81,
-          "offensive_line": "",
+          "offensive_coordinator": { "percent": 81, "letter": "B" },
+          "offensive_line": { "percent": "", "letter": "C" },
           "quarterback": {
-            "deshaun_watson": "",
-            "joshua_dobbs": "",
-            "dorian_thompson_robinson": ""
+            "deshaun_watson": { "percent": "", "letter": "C" },
+            "joshua_dobbs": { "percent": "", "letter": "C" },
+            "dorian_thompson_robinson": { "percent": "", "letter": "C" }
           }
         }
       },
       "playoff_schedule_strength": {
-        "QB": 28,
-        "RB": 5,
-        "WR": 32,
-        "TE": 19
+        "QB": { "raw": 28, "percent": 65, "letter": "D" },
+        "RB": { "raw": 5, "percent": 91, "letter": "A" },
+        "WR": { "raw": 32, "percent": 59, "letter": "F" },
+        "TE": { "raw": 19, "percent": 76, "letter": "C" }
       }
     },
     "pittsburgh_steelers": {
