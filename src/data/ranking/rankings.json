@@ -578,60 +578,60 @@
       "short_name": "NO",
       "season": {
         "2023": {
-          "offensive_coordinator": 75,
-          "offensive_line": 74.8,
+          "offensive_coordinator": { "percent": 75, "letter": "C" },
+          "offensive_line": { "percent": 74, "letter": "C" },
           "quarterback": {
-            "derek_carr": 77,
-            "jameis_winston": 70,
-            "jake_haener": 64
+            "derek_carr": { "percent": 77, "letter": "C" },
+            "jameis_winston": { "percent": 70, "letter": "C" },
+            "jake_haener": { "percent": 64, "letter": "C" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 16, "percent": 79, "letter": "C" },
+            "RB": { "raw": 23, "percent": 72, "letter": "C" },
+            "WR": { "raw": 8, "percent": 87, "letter": "B" },
+            "TE": { "raw": 5, "percent": 91, "letter": "A" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 16,
-        "RB": 23,
-        "WR": 8,
-        "TE": 5
       }
     },
     "seattle_seahawks": {
       "short_name": "SEA",
       "season": {
         "2023": {
-          "offensive_coordinator": 83,
-          "offensive_line": 73,
+          "offensive_coordinator": { "percent": 83, "letter": "B" },
+          "offensive_line": { "percent": 73, "letter": "C" },
           "quarterback": {
-            "geno_smith": 79,
-            "drew_lock": 66,
-            "holton_ahlers": 59
+            "geno_smith": { "percent": 79, "letter": "C" },
+            "drew_lock": { "percent": 66, "letter": "D" },
+            "holton_ahlers": { "percent": 59, "letter": "F" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 13, "percent": 82, "letter": "B" },
+            "RB": { "raw": 18, "percent": 77, "letter": "C" },
+            "WR": { "raw": 14, "percent": 81, "letter": "B" },
+            "TE": { "raw": 4, "percent": 93, "letter": "A" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 13,
-        "RB": 18,
-        "WR": 14,
-        "TE": 4
       }
     },
     "san_francisco": {
       "short_name": "SF",
       "season": {
         "2023": {
-          "offensive_coordinator": 88,
-          "offensive_line": "",
+          "offensive_coordinator": { "percent": 88, "letter": "B" },
+          "offensive_line": { "percent": "", "letter": "B" },
           "quarterback": {
-            "brock_purdy": "",
-            "sam_darnold": "",
-            "trey_lance": ""
+            "brock_purdy": { "percent": "", "letter": "B" },
+            "sam_darnold": { "percent": "", "letter": "B" },
+            "trey_lance": { "percent": "", "letter": "B" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 24, "percent": 71, "letter": "C" },
+            "RB": { "raw": 19, "percent": 76, "letter": "C" },
+            "WR": { "raw": 12, "percent": 83, "letter": "B" },
+            "TE": { "raw": 20, "percent": 75, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 24,
-        "RB": 19,
-        "WR": 12,
-        "TE": 20
       }
     }
   }
