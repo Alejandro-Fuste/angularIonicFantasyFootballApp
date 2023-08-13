@@ -10,14 +10,14 @@
             "clayton_tune": { "percent": 63, "letter": "D" },
             "david_blough": { "percent": 65, "letter": "D" },
             "kyler_murray": { "percent": 84, "letter": "B" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 23, "percent": 72, "letter": "C" },
+            "RB": { "raw": 8, "percent": 87, "letter": "B" },
+            "WR": { "raw": 26, "percent": 69, "letter": "D" },
+            "TE": { "raw": 25, "percent": 70, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 23, "percent": 72, "letter": "C" },
-        "RB": { "raw": 8, "percent": 87, "letter": "B" },
-        "WR": { "raw": 26, "percent": 69, "letter": "D" },
-        "TE": { "raw": 25, "percent": 70, "letter": "C" }
       }
     },
     "chicago_bears": {
@@ -30,14 +30,14 @@
             "justin_fields": { "percent": 75, "letter": "C" },
             "nathan_peterman": { "percent": 63, "letter": "C" },
             "pj_walker": { "percent": 66, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 25, "percent": 70, "letter": "C" },
+            "RB": { "raw": 4, "percent": 93, "letter": "A" },
+            "WR": { "raw": 22, "percent": 73, "letter": "C" },
+            "TE": { "raw": 9, "percent": 86, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 25, "percent": 70, "letter": "C" },
-        "RB": { "raw": 4, "percent": 93, "letter": "A" },
-        "WR": { "raw": 22, "percent": 73, "letter": "C" },
-        "TE": { "raw": 9, "percent": 86, "letter": "B" }
       }
     },
     "houston_texans": {
@@ -50,14 +50,14 @@
             "case_keenum": { "percent": 67, "letter": "D" },
             "cj_stroud": { "percent": 75, "letter": "C" },
             "davis_mills": { "percent": 67, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 6, "percent": 89, "letter": "B" },
+            "RB": { "raw": 17, "percent": 78, "letter": "C" },
+            "WR": { "raw": 4, "percent": 93, "letter": "A" },
+            "TE": { "raw": 6, "percent": 89, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 6, "percent": 89, "letter": "B" },
-        "RB": { "raw": 17, "percent": 78, "letter": "C" },
-        "WR": { "raw": 4, "percent": 93, "letter": "A" },
-        "TE": { "raw": 6, "percent": 89, "letter": "B" }
       }
     },
     "las_vegas_raiders": {
@@ -70,14 +70,14 @@
             "aidan_o'connell": { "percent": 63, "letter": "D" },
             "brian_hoyer": { "percent": 64, "letter": "D" },
             "jimmy_garoppolo": { "percent": 75, "letter": "C" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 12, "percent": 83, "letter": "B" },
+            "RB": { "raw": 6, "percent": 89, "letter": "B" },
+            "WR": { "raw": 25, "percent": 70, "letter": "C" },
+            "TE": { "raw": 16, "percent": 79, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 12, "percent": 83, "letter": "B" },
-        "RB": { "raw": 6, "percent": 89, "letter": "B" },
-        "WR": { "raw": 25, "percent": 70, "letter": "C" },
-        "TE": { "raw": 16, "percent": 79, "letter": "C" }
       }
     },
     "los_angeles_rams": {
@@ -90,14 +90,14 @@
             "brett_rypien": { "percent": 64, "letter": "D" },
             "matthew_stafford": { "percent": 84, "letter": "B" },
             "stetson_bennett": { "percent": 66, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 26, "percent": 69, "letter": "D" },
+            "RB": { "raw": 32, "percent": 59, "letter": "F" },
+            "WR": { "raw": 19, "percent": 76, "letter": "C" },
+            "TE": { "raw": 30, "percent": 61, "letter": "D" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 26, "percent": 69, "letter": "D" },
-        "RB": { "raw": 32, "percent": 59, "letter": "F" },
-        "WR": { "raw": 19, "percent": 76, "letter": "C" },
-        "TE": { "raw": 30, "percent": 61, "letter": "D" }
       }
     },
     "tampa_bay_buccaneers": {
@@ -110,14 +110,14 @@
             "baker_mayfield": { "percent": 72, "letter": "C" },
             "john_wolford": { "percent": 64, "letter": "D" },
             "kyle_trask": { "percent": 65, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 22, "percent": 73, "letter": "C" },
+            "RB": { "raw": 16, "percent": 79, "letter": "C" },
+            "WR": { "raw": 15, "percent": 80, "letter": "B" },
+            "TE": { "raw": 27, "percent": 67, "letter": "D" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 22, "percent": 73, "letter": "C" },
-        "RB": { "raw": 16, "percent": 79, "letter": "C" },
-        "WR": { "raw": 15, "percent": 80, "letter": "B" },
-        "TE": { "raw": 27, "percent": 67, "letter": "D" }
       }
     },
     "washington_commanders": {
@@ -147,14 +147,14 @@
             "josh_allen": { "percent": "", "letter": "B" },
             "kyle_allen": { "percent": "", "letter": "B" },
             "matt_barkley": { "percent": "", "letter": "B" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 14, "percent": 81, "letter": "B" },
+            "RB": { "raw": 25, "percent": 70, "letter": "C" },
+            "WR": { "raw": 9, "percent": 86, "letter": "B" },
+            "TE": { "raw": 22, "percent": 73, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 14, "percent": 81, "letter": "B" },
-        "RB": { "raw": 25, "percent": 70, "letter": "C" },
-        "WR": { "raw": 9, "percent": 86, "letter": "B" },
-        "TE": { "raw": 22, "percent": 73, "letter": "C" }
       }
     },
     "miami_dolphins": {
@@ -167,14 +167,14 @@
             "tua_tagovailoa": { "percent": "", "letter": "D" },
             "mike_white": { "percent": "", "letter": "D" },
             "skylar_thompson": { "percent": "", "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 31, "percent": 59, "letter": "F" },
+            "RB": { "raw": 29, "percent": 63, "letter": "D" },
+            "WR": { "raw": 21, "percent": 74, "letter": "C" },
+            "TE": { "raw": 31, "percent": 59, "letter": "F" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 31, "percent": 59, "letter": "F" },
-        "RB": { "raw": 29, "percent": 63, "letter": "D" },
-        "WR": { "raw": 21, "percent": 74, "letter": "C" },
-        "TE": { "raw": 31, "percent": 59, "letter": "F" }
       }
     },
     "new_england_patriots": {
@@ -187,14 +187,14 @@
             "mac_jones": { "percent": 76, "letter": "C" },
             "bailey_zappe": { "percent": 67, "letter": "D" },
             "tracy_mcsorley": { "percent": 58, "letter": "F" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 29, "percent": 63, "letter": "D" },
+            "RB": { "raw": 22, "percent": 73, "letter": "C" },
+            "WR": { "raw": 29, "percent": 63, "letter": "D" },
+            "TE": { "raw": 17, "percent": 78, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 29, "percent": 63, "letter": "D" },
-        "RB": { "raw": 22, "percent": 73, "letter": "C" },
-        "WR": { "raw": 29, "percent": 63, "letter": "D" },
-        "TE": { "raw": 17, "percent": 78, "letter": "C" }
       }
     },
     "new_york_jets": {
@@ -207,14 +207,14 @@
             "josh_allen": { "percent": "", "letter": "B" },
             "kyle_allen": { "percent": "", "letter": "B" },
             "matt_barkley": { "percent": "", "letter": "B" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 15, "percent": 80, "letter": "B" },
+            "RB": { "raw": 24, "percent": 71, "letter": "C" },
+            "WR": { "raw": 16, "percent": 79, "letter": "C" },
+            "TE": { "raw": 26, "percent": 69, "letter": "D" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 15, "percent": 80, "letter": "B" },
-        "RB": { "raw": 24, "percent": 71, "letter": "C" },
-        "WR": { "raw": 16, "percent": 79, "letter": "C" },
-        "TE": { "raw": 26, "percent": 69, "letter": "D" }
       }
     },
     "baltimore_ravens": {
@@ -227,14 +227,14 @@
             "lamar_jackson": { "percent": "", "letter": "D" },
             "tyler_huntley": { "percent": "", "letter": "D" },
             "josh_johnson": { "percent": "", "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 9, "percent": 86, "letter": "B" },
+            "RB": { "raw": 27, "percent": 67, "letter": "D" },
+            "WR": { "raw": 11, "percent": 84, "letter": "B" },
+            "TE": { "raw": 8, "percent": 87, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 9, "percent": 86, "letter": "B" },
-        "RB": { "raw": 27, "percent": 67, "letter": "D" },
-        "WR": { "raw": 11, "percent": 84, "letter": "B" },
-        "TE": { "raw": 8, "percent": 87, "letter": "B" }
       }
     },
     "cincinatti_bengals": {
@@ -264,94 +264,94 @@
             "deshaun_watson": { "percent": "", "letter": "C" },
             "joshua_dobbs": { "percent": "", "letter": "C" },
             "dorian_thompson_robinson": { "percent": "", "letter": "C" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 28, "percent": 65, "letter": "D" },
+            "RB": { "raw": 5, "percent": 91, "letter": "A" },
+            "WR": { "raw": 32, "percent": 59, "letter": "F" },
+            "TE": { "raw": 19, "percent": 76, "letter": "C" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": { "raw": 28, "percent": 65, "letter": "D" },
-        "RB": { "raw": 5, "percent": 91, "letter": "A" },
-        "WR": { "raw": 32, "percent": 59, "letter": "F" },
-        "TE": { "raw": 19, "percent": 76, "letter": "C" }
       }
     },
     "pittsburgh_steelers": {
       "short_name": "PIT",
       "season": {
         "2023": {
-          "offensive_coordinator": 60,
-          "offensive_line": 74,
+          "offensive_coordinator": { "percent": 60, "letter": "D" },
+          "offensive_line": { "percent": 74, "letter": "C" },
           "quarterback": {
-            "kenny_pickett": 76,
-            "mitchell_trubisky": 68,
-            "mason_rudolph": 63
+            "kenny_pickett": { "percent": 76, "letter": "C" },
+            "mitchell_trubisky": { "percent": 68, "letter": "D" },
+            "mason_rudolph": { "percent": 63, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 19, "percent": 76, "letter": "C" },
+            "RB": { "raw": 13, "percent": 82, "letter": "B" },
+            "WR": { "raw": 28, "percent": 65, "letter": "D" },
+            "TE": { "raw": 10, "percent": 85, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 19,
-        "RB": 13,
-        "WR": 28,
-        "TE": 10
       }
     },
     "indianapolis_colts": {
       "short_name": "IND",
       "season": {
         "2023": {
-          "offensive_coordinator": 60,
-          "offensive_line": 77.4,
+          "offensive_coordinator": { "percent": 60, "letter": "D" },
+          "offensive_line": { "percent": 77, "letter": "C" },
           "quarterback": {
-            "anthony_richardson": 69,
-            "garnder_minshew": 70,
-            "sam_elinger": 62
+            "anthony_richardson": { "percent": 69, "letter": "D" },
+            "garnder_minshew": { "percent": 70, "letter": "C" },
+            "sam_elinger": { "percent": 62, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 18, "percent": 77, "letter": "C" },
+            "RB": { "raw": 3, "percent": 95, "letter": "A" },
+            "WR": { "raw": 23, "percent": 72, "letter": "C" },
+            "TE": { "raw": 7, "percent": 88, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 18,
-        "RB": 3,
-        "WR": 23,
-        "TE": 7
       }
     },
     "jacksonville_jaguars": {
       "short_name": "JAX",
       "season": {
         "2023": {
-          "offensive_coordinator": 84,
-          "offensive_line": "",
+          "offensive_coordinator": { "percent": 84, "letter": "B" },
+          "offensive_line": { "percent": "", "letter": "D" },
           "quarterback": {
-            "trevor_lawrence": "",
-            "cj_beathard": "",
-            "nathan_rourke": ""
+            "trevor_lawrence": { "percent": "", "letter": "D" },
+            "cj_beathard": { "percent": "", "letter": "D" },
+            "nathan_rourke": { "percent": "", "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 5, "percent": 90, "letter": "A" },
+            "RB": { "raw": 30, "percent": 61, "letter": "D" },
+            "WR": { "raw": 1, "percent": 99, "letter": "A" },
+            "TE": { "raw": 14, "percent": 81, "letter": "B" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 5,
-        "RB": 30,
-        "WR": 1,
-        "TE": 14
       }
     },
     "tennessee_titans": {
       "short_name": "TEN",
       "season": {
         "2023": {
-          "offensive_coordinator": 71,
-          "offensive_line": 69.8,
+          "offensive_coordinator": { "percent": 71, "letter": "C" },
+          "offensive_line": { "percent": 70, "letter": "C" },
           "quarterback": {
-            "ryan_tannehill": 77,
-            "will_levis": 70,
-            "malik_willis": 63
+            "ryan_tannehill": { "percent": 77, "letter": "C" },
+            "will_levis": { "percent": 70, "letter": "C" },
+            "malik_willis": { "percent": 63, "letter": "D" }
+          },
+          "playoff_schedule_strength": {
+            "QB": { "raw": 27, "percent": 67, "letter": "D" },
+            "RB": { "raw": 1, "percent": 99, "letter": "A" },
+            "WR": { "raw": 31, "percent": 59, "letter": "F" },
+            "TE": { "raw": 3, "percent": 97, "letter": "A" }
           }
         }
-      },
-      "playoff_schedule_strength": {
-        "QB": 27,
-        "RB": 1,
-        "WR": 31,
-        "TE": 3
       }
     },
     "denver_broncos": {
